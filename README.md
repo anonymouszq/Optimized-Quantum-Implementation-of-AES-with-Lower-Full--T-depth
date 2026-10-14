@@ -1,4 +1,4 @@
-# AES quantum-circuit release (6 October 2026)
+# AES quantum-circuit
 
 This archive contains the frozen AES-128 compute–uncompute circuit, component
 certificates, independent audit records, source code and a release verifier.
