@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "d9507658a8827c115d84e00f82729c92d75d4bc77508922609fc66b69d67cddc",
+  "compressed_sha256": "1d73a3a75c9b3dfaa7dc315e2a5019436aa8663581a7277fce72642bbeb23e54",
+  "compressed_bytes": 2393515,
+  "gzip_crc_valid": true,
+  "plain_sha256": "90f293b402091a7dc43dd9320fd1a07a9f831545af6e635516037a18acf53ea4",
+  "plain_bytes": 9998479,
+  "export_manifest_hash_matches": true,
+  "compressed_file_stable_during_read": true,
+  "plain_path": "results\\reverse_specialized_AES_20261004b\\allocation_search\\case_07\\winner_compute_uncompute.qasm",
+  "independent_metrics": {
+    "width": 3040,
+    "full_depth": 1305,
+    "t_depth": 54,
+    "t_count": 67200,
+    "cnot": 331432,
+    "measurements": 15520,
+    "one_qubit_clifford": 113664,
+    "gate_count": 527816
+  },
+  "all_metrics_match_certificate": true,
+  "layer_wire_exclusivity": true,
+  "measurement_reservation_wires_included": true,
+  "all_feed_forward_after_measurement": true,
+  "classical_T_dependencies_included": true,
+  "recomputed_earliest_layers_equal_export_labels": true,
+  "conditional_operations": 31040,
+  "measurement_barriers": 15520,
+  "gate_counts": {
+    "cx": 331432,
+    "h": 80160,
+    "t": 33600,
+    "tdg": 33600,
+    "s": 16800,
+    "mm": 15520,
+    "x": 16704
+  },
+  "scope": "Independent textual QASM parsing, scheduling legality and resource recurrence; basis-state and component phase audits are separate."
+}

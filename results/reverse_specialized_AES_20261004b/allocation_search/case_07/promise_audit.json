@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "vectors": 4361,
+  "random_vectors": 4096,
+  "reverse_state_calls": 160,
+  "call_case_checks": 697760,
+  "calls_per_round": {
+    "1": 16,
+    "2": 16,
+    "3": 16,
+    "4": 16,
+    "5": 16,
+    "6": 16,
+    "7": 16,
+    "8": 16,
+    "9": 16,
+    "10": 16
+  },
+  "all_call_targets_equal_S_of_input": true,
+  "all_64_scratch_zero_at_entry": true,
+  "all_inputs_preserved_and_target_scratch_zero_at_exit": true,
+  "complete_core_restores_key_plaintext_and_work": true,
+  "source_gate_stream_sha256": "b66e8ea2baf1eb1b3ed82431bb41effb4609d190924ab81233546002fa610bde",
+  "candidate_certificate_sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd"
+}

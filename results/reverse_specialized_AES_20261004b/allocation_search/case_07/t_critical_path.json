@@ -1,0 +1,499 @@
+{
+  "status": "PASS",
+  "qasm": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_specialized_AES_20261004b\\allocation_search\\case_07\\winner_compute_uncompute.qasm",
+  "qasm_sha256": "90f293b402091a7dc43dd9320fd1a07a9f831545af6e635516037a18acf53ea4",
+  "width": 3040,
+  "full_depth": 1305,
+  "t_depth": 54,
+  "t_count": 67200,
+  "path_length": 54,
+  "interpretation": "Each t_predecessor is the nearest T/Tdg ancestor selected after contracting a possibly nonempty path of CNOT, H, measurement, and classically controlled Clifford vertices. Those vertices preserve dependency order but contribute zero T weight.",
+  "critical_path": [
+    {
+      "t_vertex": 1830,
+      "qasm_line": 21763,
+      "gate": "t",
+      "wire": 1334,
+      "t_layer": 1,
+      "full_depth": 13,
+      "t_predecessor": null
+    },
+    {
+      "t_vertex": 3030,
+      "qasm_line": 27392,
+      "gate": "t",
+      "wire": 1323,
+      "t_layer": 2,
+      "full_depth": 30,
+      "t_predecessor": 1830
+    },
+    {
+      "t_vertex": 3910,
+      "qasm_line": 34253,
+      "gate": "t",
+      "wire": 1347,
+      "t_layer": 3,
+      "full_depth": 49,
+      "t_predecessor": 3030
+    },
+    {
+      "t_vertex": 4739,
+      "qasm_line": 45659,
+      "gate": "t",
+      "wire": 2838,
+      "t_layer": 4,
+      "full_depth": 74,
+      "t_predecessor": 3910
+    },
+    {
+      "t_vertex": 6288,
+      "qasm_line": 53259,
+      "gate": "t",
+      "wire": 2827,
+      "t_layer": 5,
+      "full_depth": 92,
+      "t_predecessor": 4739
+    },
+    {
+      "t_vertex": 7220,
+      "qasm_line": 60537,
+      "gate": "t",
+      "wire": 2851,
+      "t_layer": 6,
+      "full_depth": 111,
+      "t_predecessor": 6288
+    },
+    {
+      "t_vertex": 7735,
+      "qasm_line": 71140,
+      "gate": "t",
+      "wire": 214,
+      "t_layer": 7,
+      "full_depth": 136,
+      "t_predecessor": 7220
+    },
+    {
+      "t_vertex": 9056,
+      "qasm_line": 78850,
+      "gate": "t",
+      "wire": 1564,
+      "t_layer": 8,
+      "full_depth": 154,
+      "t_predecessor": 7735
+    },
+    {
+      "t_vertex": 10507,
+      "qasm_line": 86673,
+      "gate": "t",
+      "wire": 482,
+      "t_layer": 9,
+      "full_depth": 173,
+      "t_predecessor": 9056
+    },
+    {
+      "t_vertex": 11566,
+      "qasm_line": 100170,
+      "gate": "t",
+      "wire": 2441,
+      "t_layer": 10,
+      "full_depth": 204,
+      "t_predecessor": 10507
+    },
+    {
+      "t_vertex": 12931,
+      "qasm_line": 107192,
+      "gate": "t",
+      "wire": 2465,
+      "t_layer": 11,
+      "full_depth": 221,
+      "t_predecessor": 11566
+    },
+    {
+      "t_vertex": 13813,
+      "qasm_line": 113350,
+      "gate": "t",
+      "wire": 2477,
+      "t_layer": 12,
+      "full_depth": 237,
+      "t_predecessor": 12931
+    },
+    {
+      "t_vertex": 14304,
+      "qasm_line": 124484,
+      "gate": "t",
+      "wire": 1964,
+      "t_layer": 13,
+      "full_depth": 264,
+      "t_predecessor": 13813
+    },
+    {
+      "t_vertex": 15642,
+      "qasm_line": 132266,
+      "gate": "t",
+      "wire": 1815,
+      "t_layer": 14,
+      "full_depth": 282,
+      "t_predecessor": 14304
+    },
+    {
+      "t_vertex": 17104,
+      "qasm_line": 140115,
+      "gate": "t",
+      "wire": 2169,
+      "t_layer": 15,
+      "full_depth": 301,
+      "t_predecessor": 15642
+    },
+    {
+      "t_vertex": 17885,
+      "qasm_line": 152163,
+      "gate": "t",
+      "wire": 918,
+      "t_layer": 16,
+      "full_depth": 330,
+      "t_predecessor": 17104
+    },
+    {
+      "t_vertex": 19434,
+      "qasm_line": 160082,
+      "gate": "t",
+      "wire": 355,
+      "t_layer": 17,
+      "full_depth": 348,
+      "t_predecessor": 17885
+    },
+    {
+      "t_vertex": 20410,
+      "qasm_line": 167380,
+      "gate": "t",
+      "wire": 1781,
+      "t_layer": 18,
+      "full_depth": 367,
+      "t_predecessor": 19434
+    },
+    {
+      "t_vertex": 21175,
+      "qasm_line": 178724,
+      "gate": "t",
+      "wire": 1187,
+      "t_layer": 19,
+      "full_depth": 394,
+      "t_predecessor": 20410
+    },
+    {
+      "t_vertex": 22696,
+      "qasm_line": 186601,
+      "gate": "t",
+      "wire": 3022,
+      "t_layer": 20,
+      "full_depth": 412,
+      "t_predecessor": 21175
+    },
+    {
+      "t_vertex": 23685,
+      "qasm_line": 193892,
+      "gate": "t",
+      "wire": 405,
+      "t_layer": 21,
+      "full_depth": 431,
+      "t_predecessor": 22696
+    },
+    {
+      "t_vertex": 24841,
+      "qasm_line": 208743,
+      "gate": "t",
+      "wire": 1507,
+      "t_layer": 22,
+      "full_depth": 465,
+      "t_predecessor": 23685
+    },
+    {
+      "t_vertex": 26125,
+      "qasm_line": 215779,
+      "gate": "t",
+      "wire": 1507,
+      "t_layer": 23,
+      "full_depth": 483,
+      "t_predecessor": 24841
+    },
+    {
+      "t_vertex": 27005,
+      "qasm_line": 222561,
+      "gate": "t",
+      "wire": 2559,
+      "t_layer": 24,
+      "full_depth": 502,
+      "t_predecessor": 26125
+    },
+    {
+      "t_vertex": 28107,
+      "qasm_line": 235344,
+      "gate": "t",
+      "wire": 1097,
+      "t_layer": 25,
+      "full_depth": 530,
+      "t_predecessor": 27005
+    },
+    {
+      "t_vertex": 29411,
+      "qasm_line": 242373,
+      "gate": "t",
+      "wire": 552,
+      "t_layer": 26,
+      "full_depth": 548,
+      "t_predecessor": 28107
+    },
+    {
+      "t_vertex": 30303,
+      "qasm_line": 248990,
+      "gate": "t",
+      "wire": 1342,
+      "t_layer": 27,
+      "full_depth": 567,
+      "t_predecessor": 29411
+    },
+    {
+      "t_vertex": 31569,
+      "qasm_line": 263390,
+      "gate": "t",
+      "wire": 552,
+      "t_layer": 28,
+      "full_depth": 602,
+      "t_predecessor": 30303
+    },
+    {
+      "t_vertex": 32764,
+      "qasm_line": 269525,
+      "gate": "t",
+      "wire": 1338,
+      "t_layer": 29,
+      "full_depth": 618,
+      "t_predecessor": 31569
+    },
+    {
+      "t_vertex": 33625,
+      "qasm_line": 276207,
+      "gate": "t",
+      "wire": 1680,
+      "t_layer": 30,
+      "full_depth": 637,
+      "t_predecessor": 32764
+    },
+    {
+      "t_vertex": 35525,
+      "qasm_line": 292169,
+      "gate": "t",
+      "wire": 2307,
+      "t_layer": 31,
+      "full_depth": 692,
+      "t_predecessor": 33625
+    },
+    {
+      "t_vertex": 36497,
+      "qasm_line": 298154,
+      "gate": "t",
+      "wire": 1267,
+      "t_layer": 32,
+      "full_depth": 709,
+      "t_predecessor": 35525
+    },
+    {
+      "t_vertex": 37031,
+      "qasm_line": 305620,
+      "gate": "t",
+      "wire": 709,
+      "t_layer": 33,
+      "full_depth": 728,
+      "t_predecessor": 36497
+    },
+    {
+      "t_vertex": 39342,
+      "qasm_line": 322844,
+      "gate": "t",
+      "wire": 2411,
+      "t_layer": 34,
+      "full_depth": 767,
+      "t_predecessor": 37031
+    },
+    {
+      "t_vertex": 40200,
+      "qasm_line": 328598,
+      "gate": "t",
+      "wire": 1781,
+      "t_layer": 35,
+      "full_depth": 784,
+      "t_predecessor": 39342
+    },
+    {
+      "t_vertex": 40865,
+      "qasm_line": 335764,
+      "gate": "t",
+      "wire": 2367,
+      "t_layer": 36,
+      "full_depth": 803,
+      "t_predecessor": 40200
+    },
+    {
+      "t_vertex": 43353,
+      "qasm_line": 353670,
+      "gate": "t",
+      "wire": 1203,
+      "t_layer": 37,
+      "full_depth": 846,
+      "t_predecessor": 40865
+    },
+    {
+      "t_vertex": 44025,
+      "qasm_line": 358297,
+      "gate": "t",
+      "wire": 1420,
+      "t_layer": 38,
+      "full_depth": 863,
+      "t_predecessor": 43353
+    },
+    {
+      "t_vertex": 44684,
+      "qasm_line": 367761,
+      "gate": "t",
+      "wire": 2194,
+      "t_layer": 39,
+      "full_depth": 880,
+      "t_predecessor": 44025
+    },
+    {
+      "t_vertex": 48779,
+      "qasm_line": 399723,
+      "gate": "t",
+      "wire": 982,
+      "t_layer": 40,
+      "full_depth": 945,
+      "t_predecessor": 44684
+    },
+    {
+      "t_vertex": 49801,
+      "qasm_line": 406604,
+      "gate": "t",
+      "wire": 478,
+      "t_layer": 41,
+      "full_depth": 960,
+      "t_predecessor": 48779
+    },
+    {
+      "t_vertex": 50903,
+      "qasm_line": 413519,
+      "gate": "t",
+      "wire": 1356,
+      "t_layer": 42,
+      "full_depth": 976,
+      "t_predecessor": 49801
+    },
+    {
+      "t_vertex": 53410,
+      "qasm_line": 435594,
+      "gate": "t",
+      "wire": 2499,
+      "t_layer": 43,
+      "full_depth": 1017,
+      "t_predecessor": 50903
+    },
+    {
+      "t_vertex": 54699,
+      "qasm_line": 443400,
+      "gate": "t",
+      "wire": 384,
+      "t_layer": 44,
+      "full_depth": 1035,
+      "t_predecessor": 53410
+    },
+    {
+      "t_vertex": 55739,
+      "qasm_line": 453372,
+      "gate": "t",
+      "wire": 1785,
+      "t_layer": 45,
+      "full_depth": 1054,
+      "t_predecessor": 54699
+    },
+    {
+      "t_vertex": 58238,
+      "qasm_line": 471330,
+      "gate": "t",
+      "wire": 2860,
+      "t_layer": 46,
+      "full_depth": 1093,
+      "t_predecessor": 55739
+    },
+    {
+      "t_vertex": 59201,
+      "qasm_line": 480246,
+      "gate": "t",
+      "wire": 2632,
+      "t_layer": 47,
+      "full_depth": 1110,
+      "t_predecessor": 58238
+    },
+    {
+      "t_vertex": 59913,
+      "qasm_line": 488254,
+      "gate": "t",
+      "wire": 396,
+      "t_layer": 48,
+      "full_depth": 1123,
+      "t_predecessor": 59201
+    },
+    {
+      "t_vertex": 62925,
+      "qasm_line": 510009,
+      "gate": "t",
+      "wire": 1272,
+      "t_layer": 49,
+      "full_depth": 1166,
+      "t_predecessor": 59913
+    },
+    {
+      "t_vertex": 64147,
+      "qasm_line": 520959,
+      "gate": "t",
+      "wire": 2662,
+      "t_layer": 50,
+      "full_depth": 1184,
+      "t_predecessor": 62925
+    },
+    {
+      "t_vertex": 65237,
+      "qasm_line": 527823,
+      "gate": "t",
+      "wire": 2355,
+      "t_layer": 51,
+      "full_depth": 1200,
+      "t_predecessor": 64147
+    },
+    {
+      "t_vertex": 66545,
+      "qasm_line": 538831,
+      "gate": "t",
+      "wire": 1981,
+      "t_layer": 52,
+      "full_depth": 1219,
+      "t_predecessor": 65237
+    },
+    {
+      "t_vertex": 67087,
+      "qasm_line": 547271,
+      "gate": "t",
+      "wire": 2045,
+      "t_layer": 53,
+      "full_depth": 1237,
+      "t_predecessor": 66545
+    },
+    {
+      "t_vertex": 67200,
+      "qasm_line": 550099,
+      "gate": "t",
+      "wire": 1545,
+      "t_layer": 54,
+      "full_depth": 1256,
+      "t_predecessor": 67087
+    }
+  ]
+}

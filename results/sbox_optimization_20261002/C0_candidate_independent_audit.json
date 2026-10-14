@@ -1,0 +1,107 @@
+{
+  "blocks": [
+    {
+      "start": 85,
+      "end": 125,
+      "before": 40,
+      "after": 39,
+      "reverse_synthesis": true,
+      "all_wire_truth_signatures_equal": true,
+      "scalar_inputs_checked": 256,
+      "all_72_wires_equal": true,
+      "only_phase_free_cnot_x": true
+    },
+    {
+      "start": 197,
+      "end": 237,
+      "before": 40,
+      "after": 39,
+      "reverse_synthesis": true,
+      "all_wire_truth_signatures_equal": true,
+      "scalar_inputs_checked": 256,
+      "all_72_wires_equal": true,
+      "only_phase_free_cnot_x": true
+    },
+    {
+      "start": 495,
+      "end": 512,
+      "before": 17,
+      "after": 16,
+      "reverse_synthesis": false,
+      "all_wire_truth_signatures_equal": true,
+      "scalar_inputs_checked": 256,
+      "all_72_wires_equal": true,
+      "only_phase_free_cnot_x": true
+    }
+  ],
+  "untouched_events_identical": true,
+  "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+  "candidate_sha256": "2aec5f219aeb1931cbc6981733f36d1cde713ae0eb10e13cd9340d5f1434f5b9",
+  "interface": {
+    "exhaustive_inputs": 256,
+    "aes_correct": true,
+    "inputs_preserved": true,
+    "all_work_qubits_zero": true,
+    "all_allocation_and_gadget_promises": true,
+    "all_prepared_states_consumed": true,
+    "event_counts": {
+      "prep": 25,
+      "and3": 25,
+      "and4": 17,
+      "cleanup": 34,
+      "cx": 472,
+      "x": 3
+    }
+  },
+  "schedule": {
+    "permutation": true,
+    "inverted_pairs_checked": 44447,
+    "all_inverted_pairs_commute_exactly": true,
+    "wire_exclusivity": true,
+    "feed_forward_order": true,
+    "t_layer_positions": [
+      10,
+      27,
+      44
+    ]
+  },
+  "cancellations": {
+    "cancelled_pairs": 0,
+    "removed_gates": 0,
+    "exact_commuting_cancellation": true
+  },
+  "metrics": {
+    "width": 72,
+    "full_depth": 84,
+    "t_depth": 3,
+    "t_count": 168,
+    "cnot": 792,
+    "measurements": 34,
+    "one_qubit_clifford": 265,
+    "gate_count": 1259
+  },
+  "local_gadgets": {
+    "three_wire": {
+      "max_isometry_error": 2.220446049250313e-16,
+      "all_four_control_inputs": true,
+      "prepared_state": "T H |0>",
+      "preparation_T_count": 1,
+      "body_T_count": 3,
+      "preparation_included_in_export": true
+    },
+    "local": {
+      "qand_isometry_and_cleanup_kraus_error": 2.220446049250313e-16,
+      "unitary_commutation_pairs_numerically_checked": 654
+    },
+    "variants": {
+      "full_unitary_max_error": 0.0,
+      "basis_vectors": 8,
+      "variants": [
+        "standard",
+        "chain",
+        "fork"
+      ],
+      "both_control_orders": true
+    }
+  }
+}

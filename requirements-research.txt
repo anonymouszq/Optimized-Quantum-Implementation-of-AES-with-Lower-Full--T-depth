@@ -1,0 +1,3 @@
+# The release verifier itself uses only Python's standard library.
+numpy
+# Optional: CaDiCaL is required to rerun linear-layer SAT search.

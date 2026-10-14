@@ -1,0 +1,67 @@
+{
+  "status": "verified_component_improvement; full-AES effect delegated to parent integration",
+  "paper_baseline_C0": {
+    "W": 72,
+    "D": 85,
+    "DT": 3,
+    "NT": 168,
+    "CX": 796
+  },
+  "existing_pre_task_third_C0": {
+    "W": 72,
+    "D": 85,
+    "DT": 3,
+    "NT": 168,
+    "CX": 795
+  },
+  "this_run_C0": {
+    "width": 72,
+    "full_depth": 84,
+    "t_depth": 3,
+    "t_count": 168,
+    "cnot": 792,
+    "measurements": 34,
+    "one_qubit_clifford": 265,
+    "gate_count": 1259
+  },
+  "migrating_C0": {
+    "W": 72,
+    "D": 83,
+    "DT": 3,
+    "NT": 168,
+    "CX": 779,
+    "canonical_tail_removed": 13
+  },
+  "improvement_attribution": {
+    "existing_before_task": 1,
+    "new_CNOT_reduction": 3,
+    "new_ordinary_depth_reduction": 1,
+    "winning_rewrites": "Two reverse-direction 40-to-39 event windows and one forward 17-to-16 window; each all-72-wire equivalent on 256 inputs",
+    "T_depth_change": 0,
+    "width_change": 0
+  },
+  "reproduce_search": "python scripts/experiment_sbox_20261002.py --seconds 120 --trials 2",
+  "reproduce_independent_audit": "python scripts/experiment_sbox_20261002_verify.py",
+  "reproduce_retiming": "python scripts/experiment_sbox_20261002_retime.py",
+  "source_chain": [
+    "results/aes_t3_semantic_iterate_20260911/best_certificate.json",
+    "results/aes_t3_semantic_third_20260911/best_certificate.json",
+    "results/sbox_optimization_20261002/C0_candidate_certificate.json"
+  ],
+  "frozen_certificate_sha256": "2aec5f219aeb1931cbc6981733f36d1cde713ae0eb10e13cd9340d5f1434f5b9",
+  "checks": [
+    "256-input AES and input preservation",
+    "all work lines zero",
+    "every replacement all 72 physical lines equal at window exit",
+    "inverted pairs exactly commute",
+    "wire exclusivity and measurement feedforward",
+    "local U3 isometry and QAND cleanup Kraus checks",
+    "dynamic QASM replay identical"
+  ],
+  "negative_results": [
+    "256 new Cxor priority schedules gave best D89, so baseline D88/CX821 retained",
+    "Cxor semantic full 65536-bit signature search not completed within bounded budget; no improvement claimed",
+    "16 first/second T-batch placement masks for third-layer preparations, 128 schedules each: no better D or CX at fixed mapping"
+  ],
+  "scope": "Ordinary depth is the existing ASAP resource counter result; explicit 3-T-batch matching schedules use 86 layers in frozen candidate or 85 in alternative C0_retimed_certificate.json."
+}

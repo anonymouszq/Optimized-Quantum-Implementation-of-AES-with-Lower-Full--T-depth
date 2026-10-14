@@ -1,0 +1,1596 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[80];
+creg m0[1];
+creg m1[1];
+creg m2[1];
+creg m3[1];
+creg m4[1];
+creg m5[1];
+creg m6[1];
+creg m7[1];
+creg m8[1];
+creg m9[1];
+creg m10[1];
+creg m11[1];
+creg m12[1];
+creg m13[1];
+creg m14[1];
+creg m15[1];
+creg m16[1];
+creg m17[1];
+creg m18[1];
+creg m19[1];
+creg m20[1];
+creg m21[1];
+creg m22[1];
+creg m23[1];
+creg m24[1];
+creg m25[1];
+creg m26[1];
+creg m27[1];
+creg m28[1];
+creg m29[1];
+creg m30[1];
+creg m31[1];
+creg m32[1];
+creg m33[1];
+creg m34[1];
+creg m35[1];
+creg m36[1];
+creg m37[1];
+creg m38[1];
+creg m39[1];
+creg m40[1];
+creg m41[1];
+
+// Layer 1
+cx q[6],q[4];
+cx q[3],q[44];
+cx q[2],q[1];
+
+// Layer 2
+cx q[1],q[43];
+cx q[0],q[3];
+cx q[4],q[2];
+cx q[5],q[42];
+
+// Layer 3
+cx q[3],q[4];
+cx q[1],q[45];
+cx q[5],q[2];
+cx q[0],q[41];
+
+// Layer 4
+cx q[4],q[47];
+cx q[3],q[46];
+cx q[7],q[1];
+cx q[2],q[48];
+cx q[0],q[42];
+cx q[6],q[41];
+cx q[5],q[44];
+
+// Layer 5
+cx q[4],q[45];
+cx q[1],q[0];
+cx q[2],q[49];
+cx q[6],q[5];
+cx q[3],q[50];
+
+// Layer 6
+cx q[0],q[3];
+cx q[4],q[48];
+cx q[1],q[6];
+cx q[5],q[46];
+cx q[2],q[43];
+
+// Layer 7
+cx q[7],q[4];
+cx q[0],q[5];
+cx q[1],q[2];
+h q[67];
+h q[55];
+h q[61];
+h q[51];
+h q[63];
+h q[53];
+h q[65];
+h q[57];
+h q[59];
+
+// Layer 8
+cx q[4],q[52];
+cx q[57],q[0];
+cx q[2],q[58];
+cx q[46],q[60];
+cx q[51],q[5];
+cx q[55],q[6];
+cx q[50],q[62];
+cx q[1],q[56];
+cx q[53],q[3];
+cx q[59],q[47];
+cx q[63],q[49];
+cx q[42],q[66];
+cx q[67],q[48];
+cx q[41],q[64];
+cx q[61],q[43];
+cx q[44],q[68];
+cx q[65],q[45];
+cx q[7],q[54];
+
+// Layer 9
+cx q[0],q[58];
+cx q[51],q[4];
+cx q[53],q[7];
+cx q[5],q[52];
+cx q[3],q[54];
+cx q[57],q[2];
+cx q[59],q[46];
+cx q[45],q[66];
+cx q[47],q[60];
+cx q[6],q[56];
+cx q[55],q[1];
+cx q[61],q[50];
+cx q[48],q[68];
+cx q[43],q[62];
+cx q[49],q[64];
+cx q[67],q[44];
+cx q[65],q[42];
+cx q[63],q[41];
+h q[25];
+h q[24];
+h q[29];
+h q[17];
+h q[30];
+h q[20];
+h q[22];
+h q[23];
+h q[38];
+h q[31];
+h q[28];
+h q[21];
+h q[32];
+h q[40];
+h q[18];
+h q[39];
+h q[16];
+h q[26];
+h q[35];
+h q[27];
+h q[19];
+h q[34];
+h q[33];
+h q[37];
+h q[36];
+
+// Layer 10
+t q[16];
+t q[17];
+t q[18];
+t q[19];
+t q[20];
+t q[21];
+t q[22];
+t q[23];
+t q[24];
+t q[25];
+t q[26];
+t q[27];
+t q[28];
+t q[29];
+t q[30];
+t q[31];
+t q[32];
+t q[33];
+t q[34];
+t q[35];
+t q[36];
+t q[37];
+t q[38];
+t q[39];
+t q[40];
+tdg q[5];
+tdg q[4];
+t q[51];
+t q[52];
+tdg q[3];
+tdg q[7];
+t q[53];
+t q[54];
+tdg q[6];
+tdg q[1];
+t q[55];
+t q[56];
+tdg q[0];
+tdg q[2];
+t q[57];
+t q[58];
+tdg q[47];
+tdg q[46];
+t q[59];
+t q[60];
+tdg q[43];
+tdg q[50];
+t q[61];
+t q[62];
+tdg q[49];
+tdg q[41];
+t q[63];
+t q[64];
+tdg q[45];
+tdg q[42];
+t q[65];
+t q[66];
+tdg q[48];
+tdg q[44];
+t q[67];
+t q[68];
+
+// Layer 11
+cx q[57],q[2];
+cx q[0],q[58];
+cx q[48],q[68];
+cx q[67],q[44];
+
+// Layer 12
+cx q[67],q[48];
+cx q[57],q[0];
+cx q[65],q[42];
+cx q[61],q[50];
+cx q[43],q[62];
+cx q[49],q[64];
+cx q[45],q[66];
+cx q[63],q[41];
+
+// Layer 13
+h q[67];
+h q[57];
+cx q[61],q[43];
+cx q[63],q[49];
+cx q[65],q[45];
+cx q[47],q[60];
+cx q[6],q[56];
+cx q[59],q[46];
+cx q[55],q[1];
+
+// Layer 14
+s q[57];
+s q[67];
+h q[61];
+h q[63];
+h q[65];
+cx q[55],q[6];
+cx q[59],q[47];
+cx q[51],q[4];
+cx q[5],q[52];
+
+// Layer 15
+cx q[61],q[67];
+cx q[63],q[57];
+s q[65];
+h q[59];
+h q[55];
+cx q[51],q[5];
+
+// Layer 16
+cx q[0],q[57];
+cx q[61],q[65];
+s q[63];
+s q[59];
+s q[55];
+h q[51];
+cx q[3],q[54];
+cx q[53],q[7];
+
+// Layer 17
+cx q[65],q[57];
+cx q[67],q[63];
+cx q[41],q[55];
+cx q[42],q[59];
+s q[51];
+cx q[1],q[56];
+cx q[46],q[60];
+cx q[7],q[54];
+
+// Layer 18
+cx q[57],q[7];
+cx q[55],q[63];
+cx q[44],q[51];
+cx q[45],q[59];
+cx q[1],q[46];
+cx q[53],q[3];
+cx q[50],q[62];
+
+// Layer 19
+cx q[57],q[1];
+cx q[63],q[64];
+cx q[59],q[67];
+cx q[41],q[0];
+cx q[48],q[51];
+cx q[44],q[50];
+cx q[45],q[7];
+h q[53];
+cx q[49],q[58];
+cx q[42],q[47];
+
+// Layer 20
+cx q[2],q[57];
+cx q[53],q[65];
+cx q[63],q[1];
+cx q[0],q[47];
+cx q[51],q[67];
+cx q[48],q[7];
+cx q[44],q[46];
+cx q[45],q[58];
+cx q[42],q[66];
+cx q[41],q[52];
+
+// Layer 21
+cx q[57],q[46];
+cx q[67],q[50];
+cx q[49],q[63];
+cx q[59],q[65];
+cx q[0],q[6];
+cx q[48],q[56];
+cx q[45],q[62];
+cx q[3],q[43];
+cx q[44],q[68];
+cx q[41],q[64];
+cx q[42],q[5];
+cx q[2],q[60];
+cx q[4],q[52];
+cx q[26],q[74];
+
+// Layer 22
+cx q[65],q[57];
+cx q[67],q[63];
+cx q[41],q[0];
+cx q[64],q[4];
+cx q[44],q[3];
+cx q[48],q[62];
+cx q[45],q[56];
+cx q[49],q[60];
+cx q[42],q[26];
+
+// Layer 23
+cx q[57],q[73];
+cx q[0],q[3];
+cx q[49],q[64];
+cx q[65],q[67];
+cx q[60],q[46];
+cx q[45],q[4];
+cx q[42],q[50];
+cx q[48],q[47];
+cx q[44],q[52];
+cx q[2],q[56];
+cx q[24],q[54];
+cx q[27],q[79];
+
+// Layer 24
+cx q[63],q[57];
+cx q[64],q[3];
+cx q[67],q[76];
+cx q[50],q[66];
+cx q[1],q[68];
+cx q[65],q[75];
+cx q[45],q[59];
+cx q[60],q[30];
+cx q[62],q[43];
+cx q[49],q[47];
+cx q[52],q[23];
+cx q[2],q[4];
+cx q[48],q[36];
+cx q[41],q[46];
+cx q[21],q[5];
+cx q[42],q[54];
+cx q[32],q[6];
+cx q[44],q[27];
+
+// Layer 25
+cx q[57],q[79];
+cx q[73],q[24];
+cx q[19],q[64];
+cx q[67],q[34];
+cx q[22],q[0];
+cx q[46],q[70];
+cx q[68],q[32];
+cx q[63],q[74];
+cx q[50],q[21];
+cx q[35],q[45];
+cx q[4],q[16];
+cx q[65],q[69];
+cx q[48],q[51];
+cx q[30],q[71];
+cx q[43],q[20];
+cx q[23],q[72];
+cx q[58],q[28];
+cx q[42],q[3];
+cx q[56],q[29];
+cx q[49],q[6];
+cx q[44],q[54];
+cx q[41],q[25];
+cx q[2],q[31];
+cx q[18],q[78];
+cx q[33],q[77];
+cx q[17],q[75];
+
+// Layer 26
+cx q[36],q[57];
+cx q[47],q[19];
+cx q[73],q[77];
+cx q[29],q[46];
+cx q[31],q[65];
+cx q[34],q[49];
+cx q[69],q[22];
+cx q[67],q[78];
+cx q[63],q[35];
+cx q[16],q[66];
+cx q[68],q[72];
+cx q[50],q[71];
+cx q[42],q[59];
+cx q[1],q[18];
+cx q[44],q[51];
+cx q[7],q[17];
+cx q[41],q[55];
+cx q[20],q[70];
+cx q[28],q[3];
+cx q[62],q[33];
+cx q[25],q[76];
+cx q[48],q[6];
+
+// Layer 27
+cx q[57],q[48];
+cx q[79],q[44];
+cx q[64],q[47];
+cx q[54],q[73];
+cx q[77],q[62];
+cx q[45],q[63];
+cx q[0],q[69];
+cx q[46],q[56];
+cx q[49],q[67];
+cx q[65],q[2];
+cx q[78],q[1];
+cx q[70],q[43];
+cx q[76],q[41];
+cx q[66],q[4];
+cx q[3],q[58];
+cx q[5],q[50];
+cx q[74],q[42];
+cx q[6],q[68];
+cx q[71],q[60];
+cx q[72],q[52];
+cx q[75],q[7];
+
+// Layer 28
+tdg q[4];
+t q[66];
+tdg q[16];
+tdg q[75];
+t q[7];
+tdg q[17];
+tdg q[78];
+t q[1];
+tdg q[18];
+tdg q[64];
+t q[47];
+tdg q[19];
+tdg q[43];
+t q[70];
+tdg q[20];
+tdg q[5];
+t q[50];
+tdg q[21];
+tdg q[0];
+t q[69];
+tdg q[22];
+tdg q[52];
+t q[72];
+tdg q[23];
+tdg q[54];
+t q[73];
+tdg q[24];
+tdg q[41];
+t q[76];
+tdg q[25];
+tdg q[74];
+t q[42];
+tdg q[26];
+tdg q[79];
+t q[44];
+tdg q[27];
+tdg q[58];
+t q[3];
+tdg q[28];
+tdg q[56];
+t q[46];
+tdg q[29];
+tdg q[60];
+t q[71];
+tdg q[30];
+tdg q[2];
+t q[65];
+tdg q[31];
+tdg q[6];
+t q[68];
+tdg q[32];
+tdg q[77];
+t q[62];
+tdg q[33];
+tdg q[67];
+t q[49];
+tdg q[34];
+tdg q[45];
+t q[63];
+tdg q[35];
+tdg q[48];
+t q[57];
+tdg q[36];
+
+// Layer 29
+cx q[78],q[1];
+
+// Layer 30
+cx q[1],q[18];
+cx q[75],q[7];
+
+// Layer 31
+cx q[18],q[78];
+cx q[7],q[17];
+cx q[45],q[63];
+cx q[0],q[69];
+cx q[57],q[48];
+cx q[71],q[60];
+
+// Layer 32
+h q[18];
+cx q[17],q[75];
+cx q[63],q[35];
+cx q[69],q[71];
+cx q[36],q[57];
+cx q[74],q[42];
+cx q[49],q[67];
+cx q[79],q[44];
+
+// Layer 33
+cx q[18],q[74];
+h q[17];
+cx q[57],q[63];
+cx q[69],q[22];
+cx q[44],q[27];
+cx q[34],q[49];
+cx q[66],q[4];
+cx q[76],q[41];
+cx q[72],q[52];
+cx q[77],q[62];
+cx q[65],q[2];
+
+// Layer 34
+cx q[18],q[57];
+cx q[17],q[69];
+cx q[27],q[79];
+cx q[67],q[34];
+cx q[16],q[66];
+cx q[30],q[71];
+cx q[25],q[76];
+cx q[62],q[33];
+cx q[31],q[65];
+cx q[23],q[72];
+cx q[3],q[58];
+cx q[46],q[56];
+cx q[54],q[73];
+
+// Layer 35
+cx q[57],q[46];
+cx q[18],q[79];
+cx q[17],q[54];
+h q[34];
+cx q[41],q[25];
+cx q[4],q[16];
+cx q[72],q[3];
+cx q[2],q[31];
+cx q[60],q[30];
+cx q[33],q[77];
+cx q[73],q[24];
+cx q[67],q[76];
+
+// Layer 36
+cx q[57],q[79];
+cx q[18],q[67];
+s q[17];
+s q[34];
+h q[33];
+h q[25];
+h q[31];
+h q[30];
+h q[16];
+cx q[63],q[72];
+cx q[22],q[0];
+cx q[35],q[45];
+cx q[24],q[54];
+cx q[48],q[36];
+cx q[42],q[26];
+
+// Layer 37
+cx q[16],q[17];
+cx q[67],q[72];
+cx q[57],q[54];
+cx q[33],q[34];
+s q[18];
+s q[25];
+s q[31];
+s q[30];
+h q[24];
+cx q[63],q[73];
+h q[36];
+h q[27];
+h q[22];
+h q[35];
+cx q[26],q[74];
+cx q[28],q[3];
+cx q[70],q[43];
+
+// Layer 38
+cx q[17],q[3];
+cx q[34],q[60];
+cx q[67],q[18];
+cx q[57],q[69];
+cx q[24],q[25];
+cx q[36],q[30];
+cx q[35],q[31];
+s q[22];
+s q[27];
+cx q[63],q[77];
+h q[26];
+cx q[58],q[28];
+cx q[29],q[46];
+cx q[20],q[70];
+cx q[64],q[47];
+cx q[6],q[68];
+
+// Layer 39
+cx q[63],q[17];
+cx q[31],q[34];
+cx q[57],q[67];
+cx q[25],q[76];
+cx q[30],q[60];
+cx q[26],q[22];
+cx q[36],q[58];
+cx q[27],q[73];
+h q[28];
+cx q[65],q[69];
+cx q[56],q[29];
+cx q[43],q[20];
+cx q[44],q[42];
+cx q[68],q[32];
+cx q[48],q[6];
+cx q[47],q[19];
+cx q[5],q[50];
+
+// Layer 40
+cx q[30],q[31];
+cx q[63],q[57];
+cx q[22],q[25];
+cx q[18],q[71];
+cx q[27],q[76];
+s q[35];
+s q[26];
+s q[36];
+cx q[28],q[58];
+cx q[41],q[44];
+cx q[45],q[48];
+h q[29];
+h q[20];
+cx q[65],q[46];
+cx q[32],q[6];
+cx q[52],q[23];
+cx q[19],q[64];
+cx q[50],q[21];
+
+// Layer 41
+cx q[36],q[30];
+cx q[27],q[22];
+cx q[4],q[63];
+cx q[66],q[18];
+cx q[29],q[35];
+cx q[20],q[26];
+cx q[33],q[58];
+cx q[44],q[52];
+cx q[48],q[62];
+cx q[75],q[78];
+h q[19];
+h q[32];
+cx q[65],q[3];
+cx q[70],q[7];
+cx q[21],q[5];
+cx q[2],q[49];
+
+// Layer 42
+cx q[35],q[36];
+cx q[26],q[27];
+cx q[17],q[62];
+cx q[75],q[63];
+cx q[18],q[65];
+cx q[67],q[68];
+cx q[47],q[44];
+cx q[19],q[73];
+cx q[32],q[58];
+cx q[16],q[46];
+cx q[49],q[45];
+h q[23];
+h q[21];
+cx q[1],q[70];
+cx q[0],q[5];
+cx q[42],q[54];
+cx q[2],q[6];
+
+// Layer 43
+cx q[32],q[35];
+cx q[24],q[26];
+cx q[75],q[18];
+cx q[1],q[63];
+cx q[17],q[6];
+h q[68];
+cx q[69],q[56];
+cx q[43],q[44];
+cx q[45],q[58];
+cx q[2],q[48];
+cx q[23],q[73];
+cx q[16],q[72];
+cx q[0],q[42];
+cx q[21],q[76];
+cx q[40],q[52];
+cx q[66],q[78];
+cx q[41],q[5];
+cx q[4],q[64];
+
+// Layer 44
+cx q[68],q[35];
+cx q[23],q[26];
+cx q[28],q[36];
+h q[18];
+h q[65];
+h q[63];
+cx q[31],q[37];
+cx q[19],q[27];
+cx q[17],q[52];
+cx q[21],q[22];
+cx q[58],q[67];
+h q[71];
+cx q[16],q[57];
+cx q[48],q[56];
+cx q[72],q[3];
+h q[44];
+cx q[43],q[42];
+h q[78];
+cx q[24],q[73];
+h q[5];
+cx q[49],q[60];
+cx q[4],q[70];
+cx q[66],q[50];
+cx q[39],q[74];
+cx q[38],q[6];
+
+// Layer 45
+cx q[33],q[35];
+cx q[36],q[40];
+cx q[18],q[26];
+cx q[65],q[3];
+cx q[37],q[17];
+cx q[63],q[62];
+cx q[27],q[38];
+cx q[22],q[64];
+cx q[57],q[79];
+cx q[25],q[39];
+cx q[71],q[56];
+cx q[1],q[67];
+cx q[78],q[34];
+cx q[44],q[54];
+cx q[76],q[50];
+cx q[60],q[77];
+cx q[72],q[42];
+cx q[46],q[70];
+cx q[69],q[7];
+cx q[5],q[73];
+cx q[16],q[74];
+cx q[49],q[6];
+
+// Layer 46
+cx q[26],q[42];
+cx q[35],q[70];
+cx q[52],q[36];
+cx q[62],q[64];
+cx q[3],q[67];
+cx q[18],q[72];
+cx q[17],q[31];
+cx q[6],q[27];
+cx q[65],q[58];
+cx q[63],q[22];
+cx q[74],q[25];
+cx q[68],q[46];
+cx q[78],q[57];
+cx q[56],q[77];
+cx q[71],q[60];
+cx q[44],q[76];
+cx q[34],q[79];
+cx q[54],q[50];
+cx q[5],q[69];
+cx q[73],q[7];
+cx q[8],q[11];
+cx q[9],q[12];
+
+// Layer 47
+tdg q[73];
+tdg q[69];
+t q[5];
+t q[7];
+tdg q[26];
+tdg q[72];
+t q[18];
+t q[42];
+tdg q[6];
+t q[27];
+tdg q[38];
+tdg q[54];
+tdg q[76];
+t q[44];
+t q[50];
+tdg q[74];
+t q[25];
+tdg q[39];
+tdg q[62];
+tdg q[22];
+t q[63];
+t q[64];
+tdg q[3];
+tdg q[58];
+t q[65];
+t q[67];
+tdg q[35];
+tdg q[46];
+t q[68];
+t q[70];
+tdg q[52];
+t q[36];
+tdg q[40];
+tdg q[56];
+tdg q[60];
+t q[71];
+t q[77];
+tdg q[34];
+tdg q[57];
+t q[78];
+t q[79];
+tdg q[31];
+t q[17];
+tdg q[37];
+cx q[11],q[9];
+
+// Layer 48
+cx q[52],q[36];
+cx q[9],q[8];
+cx q[14],q[15];
+
+// Layer 49
+cx q[36],q[40];
+cx q[5],q[69];
+cx q[73],q[7];
+cx q[8],q[15];
+cx q[10],q[13];
+
+// Layer 50
+cx q[40],q[52];
+cx q[5],q[73];
+cx q[34],q[79];
+cx q[17],q[31];
+cx q[78],q[57];
+cx q[56],q[77];
+cx q[71],q[60];
+cx q[15],q[10];
+
+// Layer 51
+h q[40];
+h q[5];
+cx q[37],q[17];
+cx q[78],q[34];
+cx q[71],q[56];
+cx q[63],q[22];
+cx q[68],q[46];
+cx q[62],q[64];
+cx q[26],q[42];
+cx q[18],q[72];
+cx q[6],q[27];
+cx q[35],q[70];
+cx q[15],q[12];
+
+// Layer 52
+s q[40];
+cx q[5],q[9];
+h q[78];
+h q[71];
+cx q[31],q[37];
+cx q[68],q[35];
+cx q[18],q[26];
+cx q[63],q[62];
+cx q[27],q[38];
+cx q[54],q[50];
+cx q[44],q[76];
+cx q[74],q[25];
+cx q[12],q[14];
+cx q[11],q[15];
+cx q[8],q[13];
+
+// Layer 53
+cx q[40],q[11];
+cx q[71],q[8];
+s q[78];
+h q[37];
+cx q[5],q[13];
+h q[63];
+cx q[38],q[6];
+h q[18];
+h q[68];
+cx q[44],q[54];
+cx q[25],q[39];
+cx q[3],q[67];
+cx q[65],q[58];
+cx q[14],q[10];
+
+// Layer 54
+h q[40];
+s q[37];
+cx q[68],q[15];
+cx q[78],q[12];
+s q[71];
+h q[38];
+cx q[63],q[14];
+h q[52];
+s q[5];
+cx q[18],q[13];
+cx q[39],q[74];
+h q[44];
+cx q[65],q[3];
+cx q[69],q[7];
+
+// Layer 55
+measure q[40]->m3[0];
+barrier q[40],q[36],q[52];
+cx q[14],q[10];
+h q[5];
+cx q[37],q[8];
+h q[78];
+s q[38];
+s q[44];
+cx q[71],q[12];
+h q[39];
+s q[18];
+s q[63];
+s q[68];
+h q[65];
+h q[69];
+h q[34];
+cx q[57],q[79];
+cx q[72],q[42];
+cx q[60],q[77];
+cx q[22],q[64];
+cx q[46],q[70];
+
+// Layer 56
+cx q[75],q[40];
+measure q[5]->m11[0];
+barrier q[5],q[73],q[69];
+h q[37];
+cx q[44],q[14];
+measure q[78]->m1[0];
+barrier q[78],q[57],q[34];
+cx q[11],q[15];
+h q[18];
+h q[63];
+cx q[38],q[9];
+cx q[39],q[10];
+h q[68];
+h q[71];
+s q[65];
+h q[31];
+h q[46];
+h q[60];
+h q[72];
+h q[22];
+cx q[4],q[7];
+
+// Layer 57
+if(m3==1) x q[40];
+measure q[37]->m0[0];
+barrier q[37],q[17],q[31];
+if(m1==1) cx q[57],q[34];
+if(m11==1) cx q[73],q[69];
+h q[44];
+cx q[65],q[11];
+measure q[68]->m4[0];
+barrier q[68],q[35],q[46];
+measure q[18]->m10[0];
+barrier q[18],q[26],q[72];
+measure q[63]->m6[0];
+barrier q[63],q[62],q[22];
+h q[38];
+measure q[71]->m2[0];
+barrier q[71],q[56],q[60];
+s q[39];
+h q[6];
+h q[54];
+cx q[76],q[50];
+cx q[1],q[7];
+
+// Layer 58
+cx q[7],q[40];
+h q[69];
+if(m3==1) cx q[36],q[52];
+if(m0==1) cx q[17],q[31];
+cx q[16],q[57];
+h q[65];
+measure q[44]->m8[0];
+barrier q[44],q[76],q[54];
+if(m10==1) cx q[26],q[72];
+if(m4==1) cx q[35],q[46];
+measure q[38]->m9[0];
+barrier q[38],q[27],q[6];
+if(m2==1) cx q[56],q[60];
+if(m6==1) cx q[62],q[22];
+cx q[75],q[5];
+h q[39];
+h q[3];
+h q[25];
+cx q[58],q[67];
+
+// Layer 59
+cx q[1],q[44];
+h q[52];
+cx q[69],q[56];
+cx q[40],q[57];
+measure q[65]->m5[0];
+barrier q[65],q[58],q[3];
+cx q[32],q[35];
+if(m9==1) cx q[27],q[6];
+cx q[17],q[62];
+cx q[24],q[26];
+cx q[66],q[5];
+measure q[39]->m7[0];
+barrier q[39],q[74],q[25];
+
+// Layer 60
+if(m5==1) cx q[58],q[3];
+cx q[57],q[56];
+cx q[17],q[52];
+h q[6];
+if(m8==1) x q[44];
+cx q[28],q[36];
+cx q[19],q[27];
+cx q[43],q[39];
+cx q[23],q[26];
+cx q[33],q[35];
+if(m6==1) x q[63];
+if(m11==1) x q[5];
+
+// Layer 61
+h q[3];
+cx q[44],q[52];
+cx q[57],q[69];
+cx q[48],q[65];
+cx q[17],q[6];
+cx q[35],q[36];
+cx q[26],q[27];
+cx q[40],q[73];
+if(m8==1) cx q[76],q[54];
+h q[22];
+h q[72];
+cx q[5],q[63];
+cx q[47],q[39];
+cx q[0],q[38];
+
+// Layer 62
+cx q[72],q[3];
+cx q[2],q[48];
+cx q[45],q[58];
+cx q[40],q[17];
+cx q[57],q[44];
+h q[54];
+cx q[27],q[22];
+cx q[36],q[30];
+h q[31];
+cx q[63],q[64];
+if(m7==1) x q[39];
+if(m9==1) x q[38];
+if(m7==1) cx q[74],q[25];
+
+// Layer 63
+cx q[17],q[3];
+cx q[49],q[45];
+cx q[48],q[70];
+cx q[44],q[63];
+cx q[57],q[54];
+cx q[36],q[58];
+cx q[30],q[31];
+cx q[27],q[73];
+h q[25];
+cx q[21],q[22];
+cx q[39],q[68];
+h q[46];
+cx q[43],q[38];
+h q[34];
+h q[60];
+cx q[66],q[42];
+
+// Layer 64
+cx q[40],q[72];
+cx q[16],q[17];
+cx q[63],q[56];
+cx q[45],q[48];
+cx q[31],q[34];
+cx q[22],q[25];
+cx q[38],q[54];
+cx q[33],q[58];
+cx q[30],q[60];
+cx q[57],q[46];
+cx q[27],q[76];
+cx q[41],q[39];
+cx q[49],q[6];
+cx q[5],q[42];
+cx q[24],q[73];
+if(m10==1) x q[18];
+s q[19];
+
+// Layer 65
+h q[56];
+cx q[48],q[6];
+cx q[17],q[54];
+cx q[34],q[60];
+cx q[44],q[72];
+cx q[63],q[57];
+cx q[25],q[76];
+cx q[39],q[38];
+cx q[36],q[30];
+cx q[32],q[58];
+h q[27];
+cx q[20],q[26];
+cx q[42],q[69];
+cx q[40],q[67];
+cx q[19],q[73];
+cx q[4],q[18];
+s q[33];
+s q[28];
+s q[24];
+
+// Layer 66
+h q[48];
+measure q[27]->m21[0];
+barrier q[27],q[39],q[56];
+cx q[33],q[34];
+cx q[17],q[69];
+cx q[57],q[40];
+cx q[16],q[72];
+h q[36];
+cx q[24],q[25];
+cx q[26],q[22];
+cx q[42],q[3];
+cx q[28],q[58];
+cx q[2],q[6];
+cx q[29],q[35];
+h q[19];
+cx q[49],q[60];
+cx q[0],q[62];
+h q[18];
+
+// Layer 67
+if(m21==1) cx q[39],q[56];
+measure q[36]->m12[0];
+barrier q[36],q[57],q[48];
+h q[54];
+cx q[69],q[64];
+h q[33];
+cx q[63],q[44];
+h q[24];
+cx q[72],q[3];
+cx q[2],q[49];
+cx q[35],q[31];
+h q[22];
+h q[70];
+h q[58];
+h q[28];
+measure q[19]->m29[0];
+barrier q[19],q[47],q[18];
+cx q[16],q[74];
+h q[0];
+cx q[23],q[73];
+cx q[41],q[62];
+if(m2==1) x q[71];
+s q[21];
+
+// Layer 68
+h q[56];
+if(m12==1) cx q[57],q[48];
+measure q[24]->m24[0];
+barrier q[24],q[73],q[54];
+measure q[22]->m26[0];
+barrier q[22],q[69],q[0];
+measure q[33]->m15[0];
+barrier q[33],q[67],q[70];
+h q[34];
+cx q[44],q[71];
+measure q[28]->m20[0];
+barrier q[28],q[3],q[58];
+h q[31];
+h q[45];
+h q[25];
+h q[35];
+h q[49];
+h q[2];
+cx q[63],q[74];
+if(m29==1) cx q[47],q[18];
+h q[41];
+cx q[21],q[76];
+if(m5==1) x q[65];
+cx q[42],q[46];
+cx q[7],q[37];
+cx q[66],q[50];
+s q[20];
+s q[16];
+s q[32];
+s q[29];
+
+// Layer 69
+cx q[57],q[56];
+if(m24==1) cx q[73],q[54];
+if(m15==1) cx q[67],q[70];
+if(m26==1) cx q[69],q[0];
+if(m20==1) cx q[3],q[58];
+measure q[25]->m23[0];
+barrier q[25],q[71],q[41];
+measure q[34]->m14[0];
+barrier q[34],q[44],q[49];
+measure q[31]->m17[0];
+barrier q[31],q[42],q[2];
+measure q[35]->m13[0];
+barrier q[35],q[40],q[45];
+h q[63];
+h q[18];
+h q[26];
+h q[38];
+h q[32];
+h q[52];
+h q[65];
+h q[20];
+h q[21];
+h q[29];
+h q[1];
+cx q[16],q[46];
+h q[43];
+if(m0==1) x q[37];
+if(m4==1) x q[68];
+h q[50];
+s q[23];
+
+// Layer 70
+cx q[40],q[57];
+cx q[73],q[67];
+h q[0];
+if(m23==1) cx q[71],q[41];
+if(m14==1) cx q[44],q[49];
+cx q[18],q[3];
+measure q[63]->m30[0];
+barrier q[63],q[5],q[1];
+if(m17==1) cx q[42],q[2];
+measure q[32]->m16[0];
+barrier q[32],q[6],q[52];
+measure q[26]->m22[0];
+barrier q[26],q[74],q[38];
+h q[16];
+measure q[29]->m19[0];
+barrier q[29],q[46],q[65];
+measure q[21]->m27[0];
+barrier q[21],q[62],q[50];
+measure q[20]->m28[0];
+barrier q[20],q[37],q[43];
+h q[68];
+h q[23];
+h q[4];
+
+// Layer 71
+cx q[57],q[73];
+cx q[0],q[3];
+h q[41];
+cx q[44],q[71];
+cx q[42],q[69];
+h q[49];
+if(m30==1) cx q[5],q[1];
+if(m16==1) cx q[6],q[52];
+if(m13==1) cx q[40],q[45];
+if(m22==1) cx q[74],q[38];
+measure q[16]->m32[0];
+barrier q[16],q[66],q[4];
+measure q[23]->m25[0];
+barrier q[23],q[72],q[68];
+h q[17];
+h q[60];
+h q[30];
+if(m27==1) cx q[62],q[50];
+if(m28==1) cx q[37],q[43];
+if(m19==1) cx q[46],q[65];
+h q[7];
+
+// Layer 72
+cx q[42],q[57];
+cx q[41],q[0];
+cx q[49],q[18];
+cx q[44],q[5];
+h q[52];
+measure q[30]->m18[0];
+barrier q[30],q[64],q[60];
+h q[38];
+if(m32==1) cx q[66],q[4];
+cx q[40],q[74];
+if(m25==1) cx q[72],q[68];
+measure q[17]->m31[0];
+barrier q[17],q[75],q[7];
+h q[50];
+cx q[46],q[37];
+
+// Layer 73
+cx q[57],q[46];
+cx q[0],q[6];
+cx q[49],q[40];
+cx q[42],q[44];
+cx q[52],q[72];
+h q[1];
+h q[45];
+h q[4];
+h q[2];
+cx q[38],q[59];
+if(m18==1) cx q[64],q[60];
+if(m31==1) cx q[75],q[7];
+cx q[50],q[66];
+
+// Layer 74
+cx q[2],q[57];
+cx q[0],q[17];
+cx q[44],q[40];
+cx q[18],q[4];
+cx q[1],q[52];
+cx q[42],q[75];
+cx q[45],q[59];
+h q[48];
+cx q[50],q[64];
+cx q[39],q[51];
+
+// Layer 75
+cx q[57],q[1];
+cx q[59],q[42];
+cx q[0],q[47];
+cx q[40],q[18];
+cx q[44],q[50];
+cx q[48],q[51];
+h q[7];
+
+// Layer 76
+cx q[57],q[7];
+cx q[53],q[42];
+cx q[0],q[62];
+cx q[40],q[1];
+cx q[51],q[44];
+cx q[41],q[55];
+cx q[2],q[4];
+cx q[39],q[16];
+h q[65];
+
+// Layer 77
+cx q[42],q[57];
+cx q[41],q[0];
+cx q[48],q[51];
+cx q[55],q[40];
+cx q[59],q[44];
+cx q[49],q[6];
+h q[60];
+cx q[2],q[65];
+cx q[45],q[4];
+cx q[39],q[3];
+h q[58];
+cx q[38],q[17];
+
+// Layer 78
+cx q[0],q[57];
+cx q[41],q[55];
+cx q[39],q[51];
+cx q[44],q[40];
+cx q[48],q[6];
+cx q[49],q[47];
+cx q[60],q[5];
+cx q[45],q[65];
+cx q[2],q[58];
+h q[70];
+if(m31==1) x q[17];
+cx q[38],q[3];
+h q[68];
+h q[43];
+
+// Layer 79
+cx q[1],q[5];
+cx q[40],q[57];
+h q[55];
+h q[51];
+cx q[38],q[59];
+h q[6];
+h q[17];
+cx q[2],q[60];
+cx q[48],q[47];
+cx q[70],q[43];
+cx q[49],q[58];
+cx q[45],q[7];
+cx q[39],q[68];
+
+// Layer 80
+measure q[55]->m39[0];
+barrier q[55],q[1],q[6];
+h q[57];
+measure q[51]->m41[0];
+barrier q[51],q[4],q[17];
+h q[2];
+cx q[45],q[59];
+cx q[3],q[43];
+cx q[49],q[60];
+cx q[41],q[68];
+cx q[48],q[65];
+cx q[39],q[5];
+h q[54];
+cx q[38],q[47];
+s q[53];
+s q[61];
+
+// Layer 81
+measure q[57]->m38[0];
+barrier q[57],q[0],q[2];
+if(m39==1) cx q[1],q[6];
+h q[40];
+if(m41==1) cx q[4],q[17];
+h q[59];
+cx q[61],q[44];
+h q[53];
+h q[47];
+h q[3];
+h q[49];
+cx q[45],q[70];
+cx q[48],q[7];
+cx q[39],q[54];
+cx q[41],q[5];
+if(m32==1) x q[16];
+
+// Layer 82
+if(m38==1) cx q[0],q[2];
+h q[6];
+measure q[40]->m35[0];
+barrier q[40],q[41],q[49];
+measure q[59]->m37[0];
+barrier q[59],q[5],q[47];
+cx q[61],q[42];
+h q[17];
+measure q[53]->m40[0];
+barrier q[53],q[7],q[3];
+h q[44];
+h q[39];
+cx q[48],q[70];
+cx q[45],q[58];
+cx q[38],q[16];
+
+// Layer 83
+cx q[1],q[6];
+h q[2];
+if(m35==1) cx q[41],q[49];
+cx q[0],q[17];
+h q[42];
+if(m37==1) cx q[5],q[47];
+h q[61];
+if(m40==1) cx q[7],q[3];
+measure q[44]->m33[0];
+barrier q[44],q[48],q[39];
+h q[45];
+cx q[38],q[54];
+h q[16];
+cx q[12],q[14];
+
+// Layer 84
+cx q[1],q[2];
+cx q[17],q[5];
+h q[49];
+measure q[61]->m36[0];
+barrier q[61],q[43],q[16];
+measure q[42]->m34[0];
+barrier q[42],q[38],q[45];
+h q[3];
+cx q[7],q[4];
+if(m33==1) cx q[48],q[39];
+cx q[15],q[12];
+
+// Layer 85
+cx q[2],q[49];
+cx q[6],q[17];
+if(m36==1) cx q[43],q[16];
+if(m34==1) cx q[38],q[45];
+cx q[0],q[3];
+h q[47];
+cx q[4],q[48];
+cx q[15],q[10];
+cx q[8],q[13];
+
+// Layer 86
+cx q[17],q[38];
+cx q[2],q[43];
+h q[16];
+h q[45];
+cx q[3],q[5];
+cx q[4],q[47];
+cx q[1],q[0];
+h q[39];
+cx q[8],q[15];
+
+// Layer 87
+cx q[2],q[48];
+cx q[3],q[16];
+cx q[7],q[1];
+cx q[4],q[45];
+cx q[17],q[39];
+cx q[9],q[8];
+
+// Layer 88
+cx q[1],q[45];
+cx q[3],q[4];
+cx q[17],q[2];
+cx q[0],q[41];
+cx q[11],q[9];
+
+// Layer 89
+cx q[4],q[2];
+cx q[0],q[3];
+cx q[1],q[43];
+cx q[17],q[5];
+cx q[6],q[41];
+cx q[9],q[12];
+cx q[10],q[13];
+cx q[14],q[15];
+
+// Layer 90
+cx q[6],q[4];
+cx q[3],q[39];
+cx q[2],q[1];
+cx q[5],q[17];
+cx q[0],q[38];
+if(m34==1) x q[42];
+if(m36==1) x q[61];
+if(m35==1) x q[40];
+if(m38==1) x q[57];
+if(m37==1) x q[59];
+if(m39==1) x q[55];
+if(m33==1) x q[44];
+if(m40==1) x q[53];
+if(m41==1) x q[51];
+if(m12==1) x q[36];
+if(m18==1) x q[30];
+if(m24==1) x q[24];
+if(m15==1) x q[33];
+if(m14==1) x q[34];
+if(m30==1) x q[63];
+if(m23==1) x q[25];
+if(m26==1) x q[22];
+if(m20==1) x q[28];
+if(m17==1) x q[31];
+if(m21==1) x q[27];
+if(m13==1) x q[35];
+if(m25==1) x q[23];
+if(m16==1) x q[32];
+if(m22==1) x q[26];
+if(m19==1) x q[29];
+if(m27==1) x q[21];
+if(m28==1) x q[20];
+x q[9];
+if(m29==1) x q[19];
+cx q[8],q[11];
+x q[10];
+x q[14];
+x q[15];
+if(m1==1) x q[78];

@@ -1,0 +1,57 @@
+{
+  "candidates": [
+    {
+      "certificate": "candidate_cx794_d87.json",
+      "flat_operations": "candidate_cx794_d87_ops.json",
+      "qasm": "candidate_cx794_d87.qasm",
+      "metrics": {
+        "width": 80,
+        "full_depth": 87,
+        "t_depth": 3,
+        "t_count": 168,
+        "cnot": 794,
+        "measurements": 42,
+        "one_qubit_clifford": 298,
+        "gate_count": 1302
+      },
+      "certificate_sha256": "4a44ba85fb308a4e44f97f1f7d1584f3048c69ebe24611af7a595126b679f9ee",
+      "qasm_sha256": "f52c4bbb6a60daf164b430e8dc4ddbcc4a0f099d2747dc08c49a74f17e035f3a",
+      "exhaustive_promised_interface_validation": {
+        "promised_inputs": 256,
+        "input_preserved": true,
+        "target_zero": true,
+        "all_64_scratch_zero": true,
+        "gadget_promises": true
+      },
+      "independent_QASM_replay_equal": true,
+      "original_to_final_all_80_wire_segment_equivalence": "candidate_cx794_d87_segment_equivalence.json"
+    },
+    {
+      "certificate": "candidate_cx794_d86.json",
+      "flat_operations": "candidate_cx794_d86_ops.json",
+      "qasm": "candidate_cx794_d86.qasm",
+      "metrics": {
+        "width": 80,
+        "full_depth": 86,
+        "t_depth": 3,
+        "t_count": 168,
+        "cnot": 794,
+        "measurements": 42,
+        "one_qubit_clifford": 298,
+        "gate_count": 1302
+      },
+      "certificate_sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+      "qasm_sha256": "1d84884ec04f8a4bb82459c448c27d4d9d0e3e80a055f6042c8960207877a0db",
+      "exhaustive_promised_interface_validation": {
+        "promised_inputs": 256,
+        "input_preserved": true,
+        "target_zero": true,
+        "all_64_scratch_zero": true,
+        "gadget_promises": true
+      },
+      "independent_QASM_replay_equal": true,
+      "original_to_final_all_80_wire_segment_equivalence": "candidate_cx794_d86_segment_equivalence.json"
+    }
+  ],
+  "original_generic_C1_unchanged": true
+}

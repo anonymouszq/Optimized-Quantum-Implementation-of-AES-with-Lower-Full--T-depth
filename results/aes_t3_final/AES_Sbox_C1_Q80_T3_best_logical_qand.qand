@@ -1,0 +1,604 @@
+QAND-CIRCUIT 1.0;
+QREG q[80];
+INTERFACE C1;
+
+// INPUT REGISTER (MSB first): q[0]..q[7].
+// OUTPUT/TARGET REGISTER (MSB first): q[8]..q[15].
+// Measure q[8]..q[15] for the S-box result; q[0]..q[7] intentionally preserve x.
+// C1 map: |x> q[0..7], |y> q[8..15] -> |x> q[0..7], |y XOR AES_SBOX(x)> q[8..15].
+// CLEAN WORK REGISTER AT ENTRY AND EXIT: q[16]..q[79].
+
+// Allowed logical operations: QAND, QAND_DAG, CNOT, X.
+// QAND requires target=0 and writes target=a&b; any four-wire scratch also starts/ends at 0.
+// QAND_DAG requires target=a&b and resets it to 0 by measurement/feed-forward.
+// PREPARED_CHAIN/PREPARED_FORK internally start from target=0, apply T H preparation,
+// and then use the verified three-wire body; they do not require a fourth scratch wire.
+
+CNOT q[10] -> q[13];
+CNOT q[8] -> q[11];
+CNOT q[14] -> q[15];
+CNOT q[9] -> q[12];
+CNOT q[11] -> q[9];
+CNOT q[9] -> q[8];
+CNOT q[8] -> q[15];
+CNOT q[15] -> q[12];
+CNOT q[12] -> q[14];
+CNOT q[15] -> q[10];
+CNOT q[14] -> q[10];
+CNOT q[8] -> q[13];
+CNOT q[11] -> q[15];
+CNOT q[6] -> q[4];
+CNOT q[2] -> q[1];
+CNOT q[6] -> q[41];
+CNOT q[5] -> q[42];
+CNOT q[1] -> q[43];
+CNOT q[3] -> q[44];
+CNOT q[5] -> q[44];
+CNOT q[0] -> q[3];
+CNOT q[4] -> q[2];
+CNOT q[5] -> q[2];
+CNOT q[6] -> q[5];
+CNOT q[3] -> q[4];
+CNOT q[0] -> q[41];
+CNOT q[1] -> q[45];
+CNOT q[0] -> q[42];
+CNOT q[7] -> q[1];
+CNOT q[3] -> q[46];
+CNOT q[1] -> q[0];
+CNOT q[1] -> q[6];
+CNOT q[4] -> q[45];
+CNOT q[4] -> q[47];
+CNOT q[2] -> q[43];
+CNOT q[2] -> q[48];
+CNOT q[2] -> q[49];
+CNOT q[1] -> q[2];
+CNOT q[4] -> q[48];
+CNOT q[3] -> q[50];
+CNOT q[5] -> q[46];
+CNOT q[0] -> q[5];
+CNOT q[0] -> q[3];
+CNOT q[7] -> q[4];
+QAND q[5], q[4] -> q[51]; // impl=HUANG_FOUR_WIRE, scratch=q[52]
+QAND q[3], q[7] -> q[53]; // impl=HUANG_FOUR_WIRE, scratch=q[54]
+QAND q[6], q[1] -> q[55]; // impl=HUANG_FOUR_WIRE, scratch=q[56]
+QAND q[0], q[2] -> q[57]; // impl=HUANG_FOUR_WIRE, scratch=q[58]
+QAND q[47], q[46] -> q[59]; // impl=HUANG_FOUR_WIRE, scratch=q[60]
+QAND q[43], q[50] -> q[61]; // impl=HUANG_FOUR_WIRE, scratch=q[62]
+QAND q[49], q[41] -> q[63]; // impl=HUANG_FOUR_WIRE, scratch=q[64]
+QAND q[45], q[42] -> q[65]; // impl=HUANG_FOUR_WIRE, scratch=q[66]
+QAND q[48], q[44] -> q[67]; // impl=HUANG_FOUR_WIRE, scratch=q[68]
+CNOT q[0] -> q[57];
+CNOT q[41] -> q[46];
+CNOT q[61] -> q[65];
+CNOT q[48] -> q[51];
+CNOT q[45] -> q[59];
+CNOT q[3] -> q[43];
+CNOT q[49] -> q[47];
+CNOT q[44] -> q[52];
+CNOT q[2] -> q[4];
+CNOT q[42] -> q[54];
+CNOT q[41] -> q[0];
+CNOT q[63] -> q[57];
+CNOT q[61] -> q[67];
+CNOT q[44] -> q[46];
+CNOT q[1] -> q[46];
+CNOT q[42] -> q[59];
+CNOT q[45] -> q[7];
+CNOT q[48] -> q[56];
+CNOT q[49] -> q[58];
+CNOT q[65] -> q[57];
+CNOT q[0] -> q[6];
+CNOT q[44] -> q[51];
+CNOT q[41] -> q[55];
+CNOT q[67] -> q[63];
+CNOT q[48] -> q[7];
+CNOT q[42] -> q[3];
+CNOT q[45] -> q[58];
+CNOT q[2] -> q[56];
+CNOT q[49] -> q[6];
+CNOT q[0] -> q[5];
+CNOT q[57] -> q[7];
+CNOT q[55] -> q[63];
+CNOT q[51] -> q[67];
+CNOT q[53] -> q[65];
+CNOT q[49] -> q[60];
+CNOT q[44] -> q[3];
+CNOT q[42] -> q[50];
+CNOT q[48] -> q[6];
+CNOT q[45] -> q[62];
+CNOT q[41] -> q[52];
+CNOT q[2] -> q[58];
+CNOT q[0] -> q[47];
+CNOT q[57] -> q[1];
+CNOT q[59] -> q[67];
+CNOT q[63] -> q[64];
+CNOT q[42] -> q[5];
+CNOT q[48] -> q[51];
+CNOT q[2] -> q[60];
+CNOT q[44] -> q[50];
+CNOT q[45] -> q[4];
+CNOT q[41] -> q[55];
+CNOT q[0] -> q[5];
+CNOT q[2] -> q[57];
+CNOT q[59] -> q[65];
+CNOT q[67] -> q[50];
+CNOT q[63] -> q[1];
+CNOT q[42] -> q[47];
+CNOT q[64] -> q[4];
+CNOT q[60] -> q[46];
+CNOT q[44] -> q[54];
+CNOT q[48] -> q[62];
+CNOT q[45] -> q[56];
+CNOT q[41] -> q[0];
+CNOT q[57] -> q[46];
+CNOT q[45] -> q[59];
+CNOT q[67] -> q[63];
+CNOT q[49] -> q[64];
+CNOT q[50] -> q[66];
+CNOT q[1] -> q[68];
+CNOT q[48] -> q[47];
+CNOT q[44] -> q[51];
+CNOT q[62] -> q[43];
+CNOT q[65] -> q[69];
+CNOT q[65] -> q[57];
+CNOT q[0] -> q[3];
+CNOT q[49] -> q[63];
+CNOT q[42] -> q[59];
+CNOT q[64] -> q[3];
+CNOT q[46] -> q[70];
+CNOT q[50] -> q[71];
+CNOT q[68] -> q[72];
+CNOT q[65] -> q[67];
+CNOT q[57] -> q[73];
+CNOT q[63] -> q[74];
+CNOT q[63] -> q[57];
+CNOT q[65] -> q[75];
+CNOT q[67] -> q[76];
+CNOT q[73] -> q[77];
+CNOT q[67] -> q[78];
+CNOT q[57] -> q[79];
+QAND q[4], q[66] -> q[16]; // impl=PREPARED_CHAIN
+QAND q[75], q[7] -> q[17]; // impl=PREPARED_FORK
+QAND q[78], q[1] -> q[18]; // impl=PREPARED_FORK
+QAND q[64], q[47] -> q[19]; // impl=PREPARED_FORK
+QAND q[43], q[70] -> q[20]; // impl=PREPARED_CHAIN
+QAND q[5], q[50] -> q[21]; // impl=PREPARED_FORK
+QAND q[0], q[69] -> q[22]; // impl=PREPARED_FORK
+QAND q[52], q[72] -> q[23]; // impl=PREPARED_CHAIN
+QAND q[54], q[73] -> q[24]; // impl=PREPARED_FORK
+QAND q[41], q[76] -> q[25]; // impl=PREPARED_CHAIN
+QAND q[74], q[42] -> q[26]; // impl=PREPARED_FORK
+QAND q[79], q[44] -> q[27]; // impl=PREPARED_FORK
+QAND q[58], q[3] -> q[28]; // impl=PREPARED_CHAIN
+QAND q[56], q[46] -> q[29]; // impl=PREPARED_CHAIN
+QAND q[60], q[71] -> q[30]; // impl=PREPARED_CHAIN
+QAND q[2], q[65] -> q[31]; // impl=PREPARED_CHAIN
+QAND q[6], q[68] -> q[32]; // impl=PREPARED_FORK
+QAND q[77], q[62] -> q[33]; // impl=PREPARED_FORK
+QAND q[67], q[49] -> q[34]; // impl=PREPARED_CHAIN
+QAND q[45], q[63] -> q[35]; // impl=PREPARED_FORK
+QAND q[48], q[57] -> q[36]; // impl=PREPARED_CHAIN
+CNOT q[57] -> q[63];
+CNOT q[67] -> q[76];
+CNOT q[33] -> q[34];
+CNOT q[69] -> q[71];
+CNOT q[18] -> q[74];
+CNOT q[17] -> q[54];
+CNOT q[35] -> q[31];
+CNOT q[24] -> q[25];
+CNOT q[36] -> q[30];
+CNOT q[26] -> q[22];
+CNOT q[27] -> q[73];
+CNOT q[48] -> q[62];
+CNOT q[72] -> q[3];
+CNOT q[2] -> q[49];
+CNOT q[16] -> q[46];
+CNOT q[44] -> q[42];
+CNOT q[32] -> q[58];
+CNOT q[18] -> q[57];
+CNOT q[34] -> q[60];
+CNOT q[17] -> q[69];
+CNOT q[25] -> q[76];
+CNOT q[36] -> q[58];
+CNOT q[63] -> q[73];
+CNOT q[48] -> q[6];
+CNOT q[20] -> q[26];
+CNOT q[29] -> q[35];
+CNOT q[45] -> q[62];
+CNOT q[16] -> q[74];
+CNOT q[41] -> q[44];
+CNOT q[65] -> q[3];
+CNOT q[42] -> q[54];
+CNOT q[18] -> q[67];
+CNOT q[57] -> q[46];
+CNOT q[30] -> q[60];
+CNOT q[31] -> q[34];
+CNOT q[16] -> q[17];
+CNOT q[27] -> q[76];
+CNOT q[22] -> q[25];
+CNOT q[33] -> q[58];
+CNOT q[45] -> q[48];
+CNOT q[65] -> q[69];
+CNOT q[19] -> q[73];
+CNOT q[49] -> q[6];
+CNOT q[63] -> q[72];
+CNOT q[44] -> q[52];
+CNOT q[18] -> q[79];
+CNOT q[57] -> q[54];
+CNOT q[30] -> q[31];
+CNOT q[67] -> q[72];
+CNOT q[17] -> q[3];
+CNOT q[27] -> q[22];
+CNOT q[2] -> q[48];
+CNOT q[28] -> q[58];
+CNOT q[21] -> q[76];
+CNOT q[49] -> q[45];
+CNOT q[24] -> q[73];
+CNOT q[63] -> q[77];
+CNOT q[65] -> q[46];
+CNOT q[67] -> q[18];
+CNOT q[57] -> q[69];
+CNOT q[36] -> q[30];
+CNOT q[63] -> q[17];
+CNOT q[26] -> q[27];
+CNOT q[16] -> q[72];
+CNOT q[48] -> q[56];
+CNOT q[21] -> q[22];
+CNOT q[49] -> q[60];
+CNOT q[23] -> q[73];
+CNOT q[2] -> q[6];
+CNOT q[45] -> q[58];
+CNOT q[57] -> q[67];
+CNOT q[35] -> q[36];
+CNOT q[17] -> q[6];
+CNOT q[23] -> q[26];
+CNOT q[18] -> q[71];
+CNOT q[19] -> q[27];
+CNOT q[72] -> q[3];
+CNOT q[57] -> q[79];
+CNOT q[33] -> q[35];
+CNOT q[24] -> q[26];
+CNOT q[28] -> q[36];
+CNOT q[67] -> q[68];
+CNOT q[17] -> q[52];
+CNOT q[69] -> q[56];
+CNOT q[63] -> q[57];
+CNOT q[17] -> q[62];
+CNOT q[32] -> q[35];
+CNOT q[16] -> q[57];
+CNOT q[66] -> q[78];
+CNOT q[75] -> q[78];
+CNOT q[70] -> q[7];
+CNOT q[4] -> q[64];
+CNOT q[4] -> q[70];
+CNOT q[1] -> q[70];
+CNOT q[0] -> q[42];
+CNOT q[43] -> q[42];
+CNOT q[47] -> q[44];
+CNOT q[43] -> q[44];
+CNOT q[4] -> q[63];
+CNOT q[1] -> q[63];
+CNOT q[75] -> q[63];
+CNOT q[66] -> q[65];
+CNOT q[18] -> q[65];
+CNOT q[1] -> q[67];
+CNOT q[66] -> q[50];
+CNOT q[41] -> q[5];
+CNOT q[0] -> q[5];
+CNOT q[66] -> q[18];
+CNOT q[75] -> q[18];
+QAND q[73], q[69] -> q[5]; // impl=HUANG_FOUR_WIRE, scratch=q[7]
+QAND q[26], q[72] -> q[18]; // impl=HUANG_FOUR_WIRE, scratch=q[42]
+QAND q[6], q[27] -> q[38]; // impl=PREPARED_FORK
+QAND q[54], q[76] -> q[44]; // impl=HUANG_FOUR_WIRE, scratch=q[50]
+QAND q[74], q[25] -> q[39]; // impl=PREPARED_FORK
+QAND q[62], q[22] -> q[63]; // impl=HUANG_FOUR_WIRE, scratch=q[64]
+QAND q[3], q[58] -> q[65]; // impl=HUANG_FOUR_WIRE, scratch=q[67]
+QAND q[35], q[46] -> q[68]; // impl=HUANG_FOUR_WIRE, scratch=q[70]
+QAND q[52], q[36] -> q[40]; // impl=PREPARED_FORK
+QAND q[56], q[60] -> q[71]; // impl=HUANG_FOUR_WIRE, scratch=q[77]
+QAND q[34], q[57] -> q[78]; // impl=HUANG_FOUR_WIRE, scratch=q[79]
+QAND q[31], q[17] -> q[37]; // impl=PREPARED_CHAIN
+CNOT q[37] -> q[8];
+CNOT q[38] -> q[9];
+CNOT q[39] -> q[10];
+CNOT q[40] -> q[11];
+CNOT q[78] -> q[12];
+CNOT q[18] -> q[13];
+CNOT q[63] -> q[14];
+CNOT q[68] -> q[15];
+CNOT q[5] -> q[9];
+CNOT q[71] -> q[8];
+CNOT q[71] -> q[12];
+CNOT q[11] -> q[15];
+CNOT q[5] -> q[13];
+CNOT q[8] -> q[13];
+CNOT q[65] -> q[11];
+CNOT q[14] -> q[10];
+CNOT q[15] -> q[10];
+CNOT q[12] -> q[14];
+CNOT q[15] -> q[12];
+CNOT q[8] -> q[15];
+CNOT q[9] -> q[8];
+CNOT q[44] -> q[14];
+CNOT q[11] -> q[9];
+CNOT q[9] -> q[12];
+CNOT q[14] -> q[15];
+CNOT q[8] -> q[11];
+CNOT q[10] -> q[13];
+X q[9];
+X q[10];
+X q[14];
+X q[15];
+QAND_DAG q[17], q[31] -> q[37]; // impl=MEASUREMENT_UNCOMPUTE, m=0
+QAND_DAG q[57], q[34] -> q[78]; // impl=MEASUREMENT_UNCOMPUTE, m=1
+QAND_DAG q[56], q[60] -> q[71]; // impl=MEASUREMENT_UNCOMPUTE, m=2
+QAND_DAG q[36], q[52] -> q[40]; // impl=MEASUREMENT_UNCOMPUTE, m=3
+QAND_DAG q[35], q[46] -> q[68]; // impl=MEASUREMENT_UNCOMPUTE, m=4
+QAND_DAG q[58], q[3] -> q[65]; // impl=MEASUREMENT_UNCOMPUTE, m=5
+QAND_DAG q[62], q[22] -> q[63]; // impl=MEASUREMENT_UNCOMPUTE, m=6
+QAND_DAG q[74], q[25] -> q[39]; // impl=MEASUREMENT_UNCOMPUTE, m=7
+QAND_DAG q[76], q[54] -> q[44]; // impl=MEASUREMENT_UNCOMPUTE, m=8
+QAND_DAG q[27], q[6] -> q[38]; // impl=MEASUREMENT_UNCOMPUTE, m=9
+QAND_DAG q[26], q[72] -> q[18]; // impl=MEASUREMENT_UNCOMPUTE, m=10
+QAND_DAG q[73], q[69] -> q[5]; // impl=MEASUREMENT_UNCOMPUTE, m=11
+CNOT q[16] -> q[57];
+CNOT q[32] -> q[35];
+CNOT q[17] -> q[62];
+CNOT q[66] -> q[5];
+CNOT q[75] -> q[5];
+CNOT q[4] -> q[7];
+CNOT q[1] -> q[7];
+CNOT q[4] -> q[18];
+CNOT q[7] -> q[37];
+CNOT q[0] -> q[38];
+CNOT q[43] -> q[38];
+CNOT q[47] -> q[39];
+CNOT q[43] -> q[39];
+CNOT q[7] -> q[40];
+CNOT q[75] -> q[40];
+CNOT q[66] -> q[42];
+CNOT q[5] -> q[42];
+CNOT q[1] -> q[44];
+CNOT q[66] -> q[50];
+CNOT q[41] -> q[62];
+CNOT q[0] -> q[62];
+CNOT q[5] -> q[63];
+CNOT q[40] -> q[57];
+CNOT q[69] -> q[56];
+CNOT q[17] -> q[52];
+CNOT q[44] -> q[52];
+CNOT q[28] -> q[36];
+CNOT q[24] -> q[26];
+CNOT q[33] -> q[35];
+CNOT q[57] -> q[56];
+CNOT q[72] -> q[3];
+CNOT q[19] -> q[27];
+CNOT q[63] -> q[64];
+CNOT q[23] -> q[26];
+CNOT q[17] -> q[6];
+CNOT q[35] -> q[36];
+CNOT q[57] -> q[44];
+CNOT q[45] -> q[58];
+CNOT q[2] -> q[6];
+CNOT q[23] -> q[73];
+CNOT q[49] -> q[60];
+CNOT q[21] -> q[22];
+CNOT q[48] -> q[65];
+CNOT q[16] -> q[72];
+CNOT q[26] -> q[27];
+CNOT q[40] -> q[17];
+CNOT q[36] -> q[30];
+CNOT q[57] -> q[69];
+CNOT q[44] -> q[63];
+CNOT q[42] -> q[46];
+CNOT q[40] -> q[67];
+CNOT q[24] -> q[73];
+CNOT q[49] -> q[45];
+CNOT q[21] -> q[76];
+CNOT q[28] -> q[58];
+CNOT q[2] -> q[48];
+CNOT q[27] -> q[22];
+CNOT q[17] -> q[3];
+CNOT q[44] -> q[72];
+CNOT q[30] -> q[31];
+CNOT q[57] -> q[54];
+CNOT q[63] -> q[56];
+CNOT q[39] -> q[68];
+CNOT q[40] -> q[72];
+CNOT q[49] -> q[6];
+CNOT q[19] -> q[73];
+CNOT q[42] -> q[69];
+CNOT q[45] -> q[48];
+CNOT q[33] -> q[58];
+CNOT q[22] -> q[25];
+CNOT q[27] -> q[76];
+CNOT q[16] -> q[17];
+CNOT q[31] -> q[34];
+CNOT q[30] -> q[60];
+CNOT q[57] -> q[46];
+CNOT q[63] -> q[44];
+CNOT q[38] -> q[54];
+CNOT q[42] -> q[3];
+CNOT q[41] -> q[39];
+CNOT q[16] -> q[74];
+CNOT q[45] -> q[70];
+CNOT q[29] -> q[35];
+CNOT q[20] -> q[26];
+CNOT q[48] -> q[6];
+CNOT q[40] -> q[73];
+CNOT q[36] -> q[58];
+CNOT q[25] -> q[76];
+CNOT q[17] -> q[69];
+CNOT q[34] -> q[60];
+CNOT q[63] -> q[57];
+CNOT q[32] -> q[58];
+CNOT q[39] -> q[38];
+CNOT q[16] -> q[46];
+CNOT q[2] -> q[49];
+CNOT q[72] -> q[3];
+CNOT q[48] -> q[70];
+CNOT q[27] -> q[73];
+CNOT q[26] -> q[22];
+CNOT q[36] -> q[30];
+CNOT q[24] -> q[25];
+CNOT q[35] -> q[31];
+CNOT q[17] -> q[54];
+CNOT q[63] -> q[74];
+CNOT q[69] -> q[64];
+CNOT q[33] -> q[34];
+CNOT q[44] -> q[71];
+CNOT q[57] -> q[40];
+QAND_DAG q[57], q[48] -> q[36]; // impl=MEASUREMENT_UNCOMPUTE, m=12
+QAND_DAG q[40], q[45] -> q[35]; // impl=MEASUREMENT_UNCOMPUTE, m=13
+QAND_DAG q[44], q[49] -> q[34]; // impl=MEASUREMENT_UNCOMPUTE, m=14
+QAND_DAG q[67], q[70] -> q[33]; // impl=MEASUREMENT_UNCOMPUTE, m=15
+QAND_DAG q[6], q[52] -> q[32]; // impl=MEASUREMENT_UNCOMPUTE, m=16
+QAND_DAG q[42], q[2] -> q[31]; // impl=MEASUREMENT_UNCOMPUTE, m=17
+QAND_DAG q[64], q[60] -> q[30]; // impl=MEASUREMENT_UNCOMPUTE, m=18
+QAND_DAG q[46], q[65] -> q[29]; // impl=MEASUREMENT_UNCOMPUTE, m=19
+QAND_DAG q[3], q[58] -> q[28]; // impl=MEASUREMENT_UNCOMPUTE, m=20
+QAND_DAG q[39], q[56] -> q[27]; // impl=MEASUREMENT_UNCOMPUTE, m=21
+QAND_DAG q[74], q[38] -> q[26]; // impl=MEASUREMENT_UNCOMPUTE, m=22
+QAND_DAG q[71], q[41] -> q[25]; // impl=MEASUREMENT_UNCOMPUTE, m=23
+QAND_DAG q[73], q[54] -> q[24]; // impl=MEASUREMENT_UNCOMPUTE, m=24
+QAND_DAG q[72], q[68] -> q[23]; // impl=MEASUREMENT_UNCOMPUTE, m=25
+QAND_DAG q[69], q[0] -> q[22]; // impl=MEASUREMENT_UNCOMPUTE, m=26
+QAND_DAG q[62], q[50] -> q[21]; // impl=MEASUREMENT_UNCOMPUTE, m=27
+QAND_DAG q[37], q[43] -> q[20]; // impl=MEASUREMENT_UNCOMPUTE, m=28
+QAND_DAG q[47], q[18] -> q[19]; // impl=MEASUREMENT_UNCOMPUTE, m=29
+QAND_DAG q[5], q[1] -> q[63]; // impl=MEASUREMENT_UNCOMPUTE, m=30
+QAND_DAG q[75], q[7] -> q[17]; // impl=MEASUREMENT_UNCOMPUTE, m=31
+QAND_DAG q[66], q[4] -> q[16]; // impl=MEASUREMENT_UNCOMPUTE, m=32
+CNOT q[57] -> q[56];
+CNOT q[44] -> q[5];
+CNOT q[73] -> q[67];
+CNOT q[44] -> q[71];
+CNOT q[42] -> q[75];
+CNOT q[40] -> q[57];
+CNOT q[40] -> q[74];
+CNOT q[57] -> q[73];
+CNOT q[42] -> q[44];
+CNOT q[52] -> q[72];
+CNOT q[50] -> q[64];
+CNOT q[46] -> q[37];
+CNOT q[18] -> q[3];
+CNOT q[38] -> q[59];
+CNOT q[49] -> q[40];
+CNOT q[0] -> q[3];
+CNOT q[42] -> q[57];
+CNOT q[42] -> q[69];
+CNOT q[70] -> q[43];
+CNOT q[39] -> q[51];
+CNOT q[48] -> q[47];
+CNOT q[1] -> q[52];
+CNOT q[50] -> q[66];
+CNOT q[49] -> q[18];
+CNOT q[44] -> q[40];
+CNOT q[45] -> q[59];
+CNOT q[57] -> q[46];
+CNOT q[41] -> q[0];
+CNOT q[45] -> q[65];
+CNOT q[48] -> q[70];
+CNOT q[39] -> q[54];
+CNOT q[60] -> q[5];
+CNOT q[18] -> q[4];
+CNOT q[38] -> q[47];
+CNOT q[40] -> q[1];
+CNOT q[44] -> q[50];
+CNOT q[59] -> q[42];
+CNOT q[2] -> q[57];
+CNOT q[0] -> q[62];
+CNOT q[41] -> q[55];
+CNOT q[45] -> q[4];
+CNOT q[39] -> q[16];
+CNOT q[2] -> q[60];
+CNOT q[48] -> q[51];
+CNOT q[38] -> q[17];
+CNOT q[40] -> q[18];
+CNOT q[59] -> q[44];
+CNOT q[57] -> q[1];
+CNOT q[0] -> q[47];
+CNOT q[2] -> q[58];
+CNOT q[41] -> q[68];
+CNOT q[45] -> q[70];
+CNOT q[48] -> q[6];
+CNOT q[38] -> q[16];
+CNOT q[39] -> q[3];
+CNOT q[49] -> q[60];
+CNOT q[53] -> q[42];
+CNOT q[51] -> q[44];
+CNOT q[55] -> q[40];
+CNOT q[57] -> q[7];
+CNOT q[0] -> q[17];
+CNOT q[49] -> q[6];
+CNOT q[2] -> q[65];
+CNOT q[45] -> q[58];
+CNOT q[38] -> q[3];
+CNOT q[48] -> q[7];
+CNOT q[44] -> q[40];
+CNOT q[41] -> q[55];
+CNOT q[39] -> q[51];
+CNOT q[0] -> q[6];
+CNOT q[42] -> q[57];
+CNOT q[49] -> q[58];
+CNOT q[48] -> q[65];
+CNOT q[45] -> q[7];
+CNOT q[38] -> q[59];
+CNOT q[1] -> q[5];
+CNOT q[39] -> q[5];
+CNOT q[61] -> q[44];
+CNOT q[40] -> q[57];
+CNOT q[41] -> q[0];
+CNOT q[38] -> q[54];
+CNOT q[2] -> q[4];
+CNOT q[39] -> q[68];
+CNOT q[49] -> q[47];
+CNOT q[3] -> q[43];
+CNOT q[45] -> q[59];
+CNOT q[48] -> q[51];
+CNOT q[61] -> q[42];
+CNOT q[41] -> q[5];
+CNOT q[0] -> q[57];
+QAND_DAG q[48], q[39] -> q[44]; // impl=MEASUREMENT_UNCOMPUTE, m=33
+QAND_DAG q[38], q[45] -> q[42]; // impl=MEASUREMENT_UNCOMPUTE, m=34
+QAND_DAG q[41], q[49] -> q[40]; // impl=MEASUREMENT_UNCOMPUTE, m=35
+QAND_DAG q[43], q[16] -> q[61]; // impl=MEASUREMENT_UNCOMPUTE, m=36
+QAND_DAG q[5], q[47] -> q[59]; // impl=MEASUREMENT_UNCOMPUTE, m=37
+QAND_DAG q[0], q[2] -> q[57]; // impl=MEASUREMENT_UNCOMPUTE, m=38
+QAND_DAG q[1], q[6] -> q[55]; // impl=MEASUREMENT_UNCOMPUTE, m=39
+QAND_DAG q[7], q[3] -> q[53]; // impl=MEASUREMENT_UNCOMPUTE, m=40
+QAND_DAG q[4], q[17] -> q[51]; // impl=MEASUREMENT_UNCOMPUTE, m=41
+CNOT q[7] -> q[4];
+CNOT q[0] -> q[3];
+CNOT q[0] -> q[17];
+CNOT q[17] -> q[5];
+CNOT q[3] -> q[16];
+CNOT q[4] -> q[48];
+CNOT q[1] -> q[2];
+CNOT q[2] -> q[49];
+CNOT q[2] -> q[48];
+CNOT q[2] -> q[43];
+CNOT q[4] -> q[47];
+CNOT q[4] -> q[45];
+CNOT q[1] -> q[6];
+CNOT q[1] -> q[0];
+CNOT q[3] -> q[5];
+CNOT q[7] -> q[1];
+CNOT q[0] -> q[38];
+CNOT q[1] -> q[45];
+CNOT q[0] -> q[41];
+CNOT q[3] -> q[4];
+CNOT q[6] -> q[17];
+CNOT q[17] -> q[2];
+CNOT q[4] -> q[2];
+CNOT q[0] -> q[3];
+CNOT q[17] -> q[39];
+CNOT q[3] -> q[39];
+CNOT q[1] -> q[43];
+CNOT q[17] -> q[38];
+CNOT q[6] -> q[41];
+CNOT q[2] -> q[1];
+CNOT q[6] -> q[4];
+CNOT q[17] -> q[5];
+CNOT q[5] -> q[17];

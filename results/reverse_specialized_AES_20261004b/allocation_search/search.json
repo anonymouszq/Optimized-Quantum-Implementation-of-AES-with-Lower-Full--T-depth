@@ -1,0 +1,5167 @@
+{
+  "rows": [
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.8802878856658936,
+      "case": 0,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 0,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 685,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1310,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3982400,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.451493978500366,
+      "case": 1,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 1,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1309,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3979360,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.723287105560303,
+      "case": 2,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "natural"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.903169631958008,
+      "case": 3,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "reverse"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.788909435272217,
+      "case": 4,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "rows"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1309,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3979360,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.988985061645508,
+      "case": 5,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "even_odd"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.729491949081421,
+      "case": 6,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1305,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3967200,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.943291425704956,
+      "case": 7,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "reverse_tie",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.7792723178863525,
+      "case": 8,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 1,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.956795692443848,
+      "case": 9,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 2,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.986424922943115,
+      "case": 10,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 3,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.088890314102173,
+      "case": 11,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "bucket4",
+        "seed": 1,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 687,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1313,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3991520,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.993181467056274,
+      "case": 12,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "bucket8",
+        "seed": 1,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 688,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1316,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4000640,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.095398664474487,
+      "case": 13,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "bucket16",
+        "seed": 1,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 696,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1337,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4064480,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.247588872909546,
+      "case": 14,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "history_full",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.276094675064087,
+      "case": 15,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "weighted4",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 63,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": false,
+      "pool_minimum": 1152,
+      "seconds": 6.429689407348633,
+      "case": 16,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3024,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3024,
+        "full_depth": 683,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3024,
+        "full_depth": 1319,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3988656,
+      "eligible": true,
+      "pool_minimum": 1136,
+      "seconds": 6.441288948059082,
+      "case": 17,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3008,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3008,
+        "full_depth": 687,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3008,
+        "full_depth": 1318,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3964544,
+      "eligible": true,
+      "pool_minimum": 1120,
+      "seconds": 6.433001518249512,
+      "case": 18,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 2992,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 2992,
+        "full_depth": 689,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 2992,
+        "full_depth": 1338,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4003296,
+      "eligible": true,
+      "pool_minimum": 1104,
+      "seconds": 5.9979283809661865,
+      "case": 19,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 2960,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 2960,
+        "full_depth": 707,
+        "t_depth": 33,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 2960,
+        "full_depth": 1325,
+        "t_depth": 55,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3922000,
+      "eligible": false,
+      "pool_minimum": 1072,
+      "seconds": 6.348562002182007,
+      "case": 20,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3048,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3048,
+        "full_depth": 681,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3048,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3980688,
+      "eligible": true,
+      "pool_minimum": 1160,
+      "seconds": 5.7789201736450195,
+      "case": 21,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3072,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3072,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3072,
+        "full_depth": 1317,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4045824,
+      "eligible": true,
+      "pool_minimum": 1184,
+      "seconds": 6.074765682220459,
+      "case": 22,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": true,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 678,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1324,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4024960,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.944258451461792,
+      "case": 23,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3039,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3039,
+        "full_depth": 682,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3039,
+        "full_depth": 1314,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3993246,
+      "eligible": true,
+      "pool_minimum": 1151,
+      "seconds": 6.749546051025391,
+      "case": 24,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3038,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3038,
+        "full_depth": 681,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3038,
+        "full_depth": 1315,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3994970,
+      "eligible": true,
+      "pool_minimum": 1150,
+      "seconds": 6.5505406856536865,
+      "case": 25,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3036,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3036,
+        "full_depth": 682,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3036,
+        "full_depth": 1325,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4022700,
+      "eligible": true,
+      "pool_minimum": 1148,
+      "seconds": 6.679703950881958,
+      "case": 26,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3032,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3032,
+        "full_depth": 685,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3032,
+        "full_depth": 1320,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4002240,
+      "eligible": true,
+      "pool_minimum": 1144,
+      "seconds": 6.755225658416748,
+      "case": 27,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3028,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3028,
+        "full_depth": 683,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3028,
+        "full_depth": 1325,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 4012100,
+      "eligible": true,
+      "pool_minimum": 1140,
+      "seconds": 6.668301343917847,
+      "case": 28,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3024,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3024,
+        "full_depth": 683,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3024,
+        "full_depth": 1319,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3988656,
+      "eligible": true,
+      "pool_minimum": 1136,
+      "seconds": 6.239659070968628,
+      "case": 29,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3008,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3008,
+        "full_depth": 687,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3008,
+        "full_depth": 1323,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3979584,
+      "eligible": true,
+      "pool_minimum": 1120,
+      "seconds": 6.149093151092529,
+      "case": 30,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 0,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 685,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1314,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3994560,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.805187702178955,
+      "case": 31,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 1,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1311,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3985440,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.16848611831665,
+      "case": 32,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "reverse_tie",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1308,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3976320,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 5.778923511505127,
+      "case": 33,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 1,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 6.996419668197632,
+      "case": 34,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 2,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 7.424911260604858,
+      "case": 35,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "random_tie",
+        "seed": 3,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1307,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3973280,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 7.654088258743286,
+      "case": 36,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "history_full",
+        "seed": 0,
+        "reverse_order": "late"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1305,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3967200,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 7.345871925354004,
+      "case": 37,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late",
+        "forward_order": "ready"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 679,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 7.444344520568848,
+      "case": 38,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    },
+    {
+      "spec": {
+        "width": 3040,
+        "key_first": false,
+        "mapping": 2,
+        "interface": "migrating",
+        "policy": "tfirst",
+        "seed": 0,
+        "reverse_order": "late",
+        "forward_order": "rows"
+      },
+      "forward": {
+        "width": 3040,
+        "full_depth": 680,
+        "t_depth": 30,
+        "t_count": 33600,
+        "cnot": 164612,
+        "measurements": 7120,
+        "one_qubit_clifford": 54048,
+        "gate_count": 259380
+      },
+      "full": {
+        "width": 3040,
+        "full_depth": 1306,
+        "t_depth": 54,
+        "t_count": 67200,
+        "cnot": 331432,
+        "measurements": 15520,
+        "one_qubit_clifford": 113664,
+        "gate_count": 527816
+      },
+      "DW": 3970240,
+      "eligible": true,
+      "pool_minimum": 1152,
+      "seconds": 7.3725152015686035,
+      "case": 39,
+      "setup": {
+        "fusion": {
+          "source": "results\\aes_t3_semantic_third_20260911\\best_certificate.json",
+          "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456",
+          "removed_events": [
+            311,
+            315,
+            319,
+            320,
+            322,
+            325,
+            330,
+            333
+          ],
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "candidate_path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\fused_affine_synthesis_20261004b\\candidate_d11.json",
+          "candidate_sha256": "f611518bdb62897352f31e8884ec9ae3a29321367eced2f6b59290619e6f7918",
+          "reference_roles": false,
+          "fused_width": 32,
+          "fused_metrics": {
+            "width": 32,
+            "full_depth": 11,
+            "t_depth": 0,
+            "t_count": 0,
+            "cnot": 131,
+            "measurements": 0,
+            "one_qubit_clifford": 4,
+            "gate_count": 135
+          },
+          "exact_affine_matrix_and_zero_helpers_verified": true
+        },
+        "specialization": {
+          "path": "C:\\Users\\Administrator\\Documents\\Sbox\\results\\reverse_sbox_specialization_20261004b\\candidate_cx794_d86.json",
+          "sha256": "1005018bc62e9522fd8d11f5782ae4ffc553eb135c0c6780e0ff363290a1ddcd",
+          "metrics": {
+            "width": 80,
+            "full_depth": 86,
+            "t_depth": 3,
+            "t_count": 168,
+            "cnot": 794,
+            "measurements": 42,
+            "one_qubit_clifford": 298,
+            "gate_count": 1302
+          },
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "promised_interface": "|x>|S(x)>|0^64> -> |x>|0^8>|0^64>; reverse state only; never generic key targets",
+          "segment_equivalence": {
+            "segments": 110,
+            "promised_basis_inputs": 256,
+            "physical_lines": 80,
+            "all_boundary_signatures_equal": true,
+            "unchanged_nonlinear_gadgets": true
+          },
+          "cancellation_replay": {
+            "cancelled_pairs": 2,
+            "removed_gates": 4,
+            "exact_commuting_cancellation": true
+          },
+          "reordering_replay": {
+            "permutation": true,
+            "inverted_pairs_checked": 46061,
+            "all_inverted_pairs_commute_exactly": true,
+            "wire_exclusivity": true,
+            "feed_forward_order": true,
+            "t_layer_positions": [
+              11,
+              29,
+              47
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "elapsed": 109.44905853271484
+}

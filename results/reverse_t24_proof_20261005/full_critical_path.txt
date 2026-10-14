@@ -1,0 +1,590 @@
+Every intervening gate is retained. Gate indices are zero-based in frozen source stream.
+0000 src=264716 T=30 cx q=[1260, 2368] cond=None meas=None reverse_state_round_10_byte_2 edge=
+0001 src=264760 T=30 cx q=[2962, 2368] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2368
+0002 src=264775 T=30 cx q=[2962, 1567] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2962
+0003 src=264783 T=30 cx q=[2991, 2962] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2962
+0004 src=264795 T=30 cx q=[2962, 2760] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2962
+0005 src=264803 T=30 cx q=[1507, 2962] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2962
+0006 src=264817 T=30 cx q=[1507, 1260] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1507
+0007 src=264826 T=30 cx q=[2840, 1507] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1507
+0008 src=264833 T=30 cx q=[2840, 1567] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0009 src=264876 T=31 tdg q=[1567] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1567
+0010 src=264899 T=31 cx q=[2840, 1567] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1567
+0011 src=264918 T=31 cx q=[2840, 1507] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0012 src=264934 T=31 h q=[2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0013 src=264952 T=31 s q=[2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0014 src=264970 T=31 cx q=[2468, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0015 src=264982 T=31 cx q=[2767, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0016 src=264990 T=31 cx q=[1507, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0017 src=265001 T=31 cx q=[2840, 1657] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0018 src=265011 T=31 cx q=[2840, 1135] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0019 src=265020 T=31 cx q=[1567, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0020 src=265032 T=31 cx q=[2840, 2760] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0021 src=265042 T=31 cx q=[2767, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0022 src=265051 T=31 cx q=[2840, 1200] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0023 src=265063 T=31 cx q=[2468, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0024 src=265076 T=31 cx q=[2840, 543] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0025 src=265082 T=31 cx q=[585, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0026 src=265088 T=31 cx q=[2840, 2701] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0027 src=265151 T=32 tdg q=[2701] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2701
+0028 src=265156 T=32 cx q=[2840, 2701] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2701
+0029 src=265179 T=32 cx q=[585, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0030 src=265199 T=32 cx q=[2840, 2468] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0031 src=265258 T=32 cx q=[917, 2840] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0032 src=265291 T=32 cx q=[2840, 775] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0033 src=265308 T=32 cx q=[2840, 2623] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0034 src=265335 T=32 cx q=[2840, 917] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2840
+0035 src=265347 T=32 cx q=[1657, 917] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:917
+0036 src=265358 T=32 cx q=[917, 1084] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:917
+0037 src=265372 T=32 h q=[1084] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1084
+0038 src=265385 T=32 cx q=[1084, 2922] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:1084
+0039 src=265397 T=32 cx q=[2922, 1321] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2922
+0040 src=265447 T=33 tdg q=[2922] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2922
+0041 src=265477 T=33 cx q=[2922, 1321] cond=None meas=None reverse_state_round_10_byte_2 edge=wire:2922
+0042 src=284435 T=33 cx q=[105, 1321] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1321
+0043 src=284440 T=33 cx q=[111, 105] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:105
+0044 src=284446 T=33 cx q=[105, 104] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:105
+0045 src=284450 T=33 cx q=[104, 107] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:104
+0046 src=284456 T=33 cx q=[104, 109] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:104
+0047 src=284468 T=33 cx q=[140, 104] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:104
+0048 src=284490 T=33 cx q=[140, 106] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0049 src=284566 T=34 tdg q=[106] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:106
+0050 src=284589 T=34 cx q=[140, 106] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:106
+0051 src=284594 T=34 cx q=[140, 104] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0052 src=284602 T=34 h q=[140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0053 src=284610 T=34 s q=[140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0054 src=284620 T=34 cx q=[492, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0055 src=284625 T=34 cx q=[104, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0056 src=284633 T=34 cx q=[543, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0057 src=284641 T=34 cx q=[140, 111] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0058 src=284648 T=34 cx q=[140, 105] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0059 src=284658 T=34 cx q=[106, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0060 src=284668 T=34 cx q=[140, 1503] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0061 src=284682 T=34 cx q=[543, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0062 src=284694 T=34 cx q=[543, 2702] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:543
+0063 src=284724 T=34 cx q=[2702, 247] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0064 src=284705 T=34 cx q=[2702, 574] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0065 src=284754 T=34 cx q=[2702, 1647] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0066 src=284779 T=34 cx q=[1647, 105] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1647
+0067 src=284796 T=35 tdg q=[1647] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1647
+0068 src=284853 T=35 cx q=[1647, 105] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1647
+0069 src=284854 T=35 cx q=[105, 2316] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:105
+0070 src=284856 T=35 cx q=[2316, 1647] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0071 src=284862 T=35 h q=[2316] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0072 src=284870 T=35 cx q=[2316, 1064] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0073 src=284881 T=35 cx q=[2316, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0074 src=284895 T=35 cx q=[2316, 1667] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0075 src=284907 T=35 cx q=[2316, 2702] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2316
+0076 src=284922 T=35 cx q=[2702, 160] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0077 src=284940 T=35 cx q=[2702, 2316] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0078 src=284956 T=35 cx q=[140, 2702] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:2702
+0079 src=284972 T=35 cx q=[492, 140] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:140
+0080 src=284991 T=35 cx q=[108, 492] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0081 src=285008 T=35 cx q=[298, 492] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0082 src=285025 T=35 cx q=[105, 492] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0083 src=285045 T=35 h q=[492] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0084 src=285070 T=35 cx q=[492, 1215] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0085 src=285096 T=35 cx q=[492, 1902] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0086 src=285128 T=36 tdg q=[1902] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1902
+0087 src=285175 T=36 cx q=[492, 1902] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1902
+0088 src=285190 T=36 cx q=[492, 1215] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0089 src=285203 T=36 h q=[492] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0090 src=285218 T=36 cx q=[492, 6] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:492
+0091 src=285227 T=36 cx q=[6, 2] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:6
+0092 src=285249 T=36 cx q=[1710, 6] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:6
+0093 src=285670 T=36 cx q=[4, 6] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:6
+0094 src=285679 T=36 cx q=[7, 4] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:4
+0095 src=285697 T=36 cx q=[0, 7] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:7
+0096 src=285703 T=36 cx q=[1, 0] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:0
+0097 src=285708 T=36 cx q=[3, 1] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:1
+0098 src=285751 T=36 cx q=[0, 3] cond=None meas=None reverse_key_round_10_byte_0 edge=wire:3
+0099 src=285759 T=36 cx q=[3, 534] cond=None meas=None linear_or_round_key edge=wire:3
+0100 src=285887 T=36 cx q=[534, 1260] cond=None meas=None linear_or_round_key edge=wire:534
+0101 src=285911 T=36 cx q=[1345, 534] cond=None meas=None linear_or_round_key edge=wire:534
+0102 src=285920 T=36 cx q=[203, 1345] cond=None meas=None linear_or_round_key edge=wire:1345
+0103 src=285933 T=36 cx q=[1260, 1345] cond=None meas=None linear_or_round_key edge=wire:1345
+0104 src=285946 T=36 cx q=[203, 1345] cond=None meas=None linear_or_round_key edge=wire:1345
+0105 src=285955 T=36 cx q=[2676, 1345] cond=None meas=None linear_or_round_key edge=wire:1345
+0106 src=285972 T=36 cx q=[1345, 2931] cond=None meas=None linear_or_round_key edge=wire:1345
+0107 src=285982 T=36 cx q=[2931, 1260] cond=None meas=None linear_or_round_key edge=wire:2931
+0108 src=285966 T=36 cx q=[534, 1260] cond=None meas=None linear_or_round_key edge=wire:1260
+0109 src=294180 T=36 cx q=[1507, 1260] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1260
+0110 src=294198 T=36 cx q=[1260, 1657] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1260
+0111 src=294206 T=36 cx q=[1657, 1507] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1657
+0112 src=294215 T=36 cx q=[1507, 1135] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1507
+0113 src=294225 T=36 cx q=[1135, 1537] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1135
+0114 src=294236 T=36 cx q=[1537, 2991] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1537
+0115 src=294248 T=36 cx q=[2991, 1567] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:2991
+0116 src=294952 T=36 cx q=[1291, 2991] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:2991
+0117 src=294970 T=36 cx q=[2991, 1567] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:2991
+0118 src=294976 T=36 cx q=[1253, 2991] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:2991
+0119 src=294991 T=36 h q=[1253] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0120 src=295003 T=36 mm q=[1253, 355, 1560] cond=None meas=8220 reverse_state_round_9_byte_10 edge=wire:1253
+0121 src=295015 T=36 cx q=[400, 1253] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0122 src=295043 T=36 x q=[1253] cond=8220 meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0123 src=295088 T=36 cx q=[1253, 2115] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0124 src=295124 T=36 cx q=[1856, 1253] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0125 src=295145 T=36 cx q=[1253, 1291] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1253
+0126 src=295188 T=36 cx q=[1291, 1986] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0127 src=295170 T=36 cx q=[1291, 1253] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0128 src=295202 T=36 cx q=[1291, 1856] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0129 src=295216 T=36 cx q=[1291, 2185] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0130 src=295237 T=36 h q=[1291] cond=None meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0131 src=295252 T=36 mm q=[1291, 347, 400] cond=None meas=8242 reverse_state_round_9_byte_10 edge=wire:1291
+0132 src=323596 T=36 cx q=[2950, 1291] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1291
+0133 src=295291 T=36 x q=[1291] cond=8242 meas=None reverse_state_round_9_byte_10 edge=wire:1291
+0134 src=323640 T=36 cx q=[2005, 1291] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1291
+0135 src=323663 T=36 cx q=[2257, 2005] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2005
+0136 src=323675 T=36 cx q=[2005, 1871] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2005
+0137 src=323683 T=36 cx q=[1798, 2005] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2005
+0138 src=323697 T=36 cx q=[1798, 2950] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0139 src=323706 T=36 cx q=[2233, 1798] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0140 src=323716 T=36 cx q=[1798, 2772] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0141 src=323755 T=37 tdg q=[1798] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0142 src=323789 T=37 cx q=[1798, 2772] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0143 src=323798 T=37 cx q=[2233, 1798] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1798
+0144 src=323814 T=37 h q=[2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0145 src=323832 T=37 s q=[2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0146 src=323850 T=37 cx q=[1510, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0147 src=323862 T=37 cx q=[1970, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0148 src=323870 T=37 cx q=[1798, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0149 src=323881 T=37 cx q=[2233, 2516] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0150 src=323891 T=37 cx q=[2233, 2215] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0151 src=323900 T=37 cx q=[2507, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0152 src=323912 T=37 cx q=[2233, 1871] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0153 src=323922 T=37 cx q=[1970, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0154 src=323931 T=37 cx q=[2233, 3025] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0155 src=323943 T=37 cx q=[1510, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0156 src=323956 T=37 cx q=[2233, 1190] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0157 src=323962 T=37 cx q=[1230, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0158 src=323968 T=37 cx q=[2233, 1793] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0159 src=324031 T=38 tdg q=[1793] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1793
+0160 src=324036 T=38 cx q=[2233, 1793] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1793
+0161 src=324059 T=38 cx q=[1230, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0162 src=324079 T=38 cx q=[2233, 1510] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0163 src=324138 T=38 cx q=[2140, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0164 src=324171 T=38 cx q=[2233, 2110] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0165 src=324188 T=38 cx q=[2233, 1740] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0166 src=324215 T=38 cx q=[2233, 2140] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0167 src=324228 T=38 cx q=[2233, 1190] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0168 src=324237 T=38 cx q=[1510, 2233] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2233
+0169 src=324247 T=38 cx q=[2215, 1510] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1510
+0170 src=324261 T=38 cx q=[972, 2215] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2215
+0171 src=324273 T=38 cx q=[1871, 972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0172 src=324284 T=38 cx q=[1258, 972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0173 src=324288 T=38 cx q=[1690, 972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0174 src=324293 T=38 cx q=[2516, 972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0175 src=324323 T=39 t q=[972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0176 src=324349 T=39 cx q=[1690, 972] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:972
+0177 src=324366 T=39 cx q=[2801, 1690] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1690
+0178 src=324386 T=39 h q=[2801] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2801
+0179 src=324410 T=39 s q=[2801] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2801
+0180 src=324421 T=39 cx q=[2801, 2873] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2801
+0181 src=324437 T=39 h q=[2801] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2801
+0182 src=324446 T=39 mm q=[2801, 1690, 1871] cond=None meas=9140 reverse_state_round_8_byte_8 edge=wire:2801
+0183 src=324466 T=39 cx q=[1690, 1871] cond=9140 meas=None reverse_state_round_8_byte_8 edge=feedback
+0184 src=324484 T=39 cx q=[2949, 1690] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1690
+0185 src=324507 T=39 cx q=[1331, 1690] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1690
+0186 src=324528 T=39 cx q=[1690, 1230] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1690
+0187 src=324546 T=39 cx q=[1230, 1808] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1230
+0188 src=324571 T=39 cx q=[1230, 2772] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:1230
+0189 src=324593 T=39 cx q=[1524, 2772] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2772
+0190 src=324616 T=39 h q=[2772] cond=None meas=None reverse_state_round_8_byte_8 edge=wire:2772
+0191 src=324633 T=39 mm q=[1524, 2950, 2772] cond=None meas=9156 reverse_state_round_8_byte_8 edge=wire:2772
+0192 src=350445 T=39 cx q=[2927, 1524] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:1524
+0193 src=350493 T=39 cx q=[2979, 2927] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2927
+0194 src=350505 T=39 cx q=[2927, 1623] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2927
+0195 src=350514 T=39 cx q=[2927, 2749] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2927
+0196 src=350524 T=39 cx q=[575, 2749] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2749
+0197 src=350532 T=39 cx q=[2979, 575] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:575
+0198 src=350546 T=39 cx q=[2979, 2927] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0199 src=350555 T=39 cx q=[591, 2979] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0200 src=350565 T=39 cx q=[2979, 1830] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0201 src=350604 T=40 tdg q=[2979] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0202 src=350638 T=40 cx q=[2979, 1830] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0203 src=350647 T=40 cx q=[591, 2979] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2979
+0204 src=350663 T=40 h q=[591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0205 src=350681 T=40 s q=[591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0206 src=350699 T=40 cx q=[2027, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0207 src=350711 T=40 cx q=[2991, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0208 src=350719 T=40 cx q=[2979, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0209 src=350730 T=40 cx q=[591, 2711] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0210 src=350740 T=40 cx q=[591, 897] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0211 src=350749 T=40 cx q=[2689, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0212 src=350761 T=40 cx q=[591, 2749] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0213 src=350771 T=40 cx q=[2991, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0214 src=350780 T=40 cx q=[591, 997] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0215 src=350792 T=40 cx q=[2027, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0216 src=350805 T=40 cx q=[591, 230] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0217 src=350811 T=40 cx q=[239, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0218 src=350817 T=40 cx q=[591, 2677] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0219 src=350880 T=41 tdg q=[2677] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2677
+0220 src=350885 T=41 cx q=[591, 2677] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2677
+0221 src=350908 T=41 cx q=[239, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0222 src=350928 T=41 cx q=[591, 2027] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0223 src=350987 T=41 cx q=[548, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0224 src=351020 T=41 cx q=[591, 516] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0225 src=351037 T=41 cx q=[591, 2350] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0226 src=351064 T=41 cx q=[591, 548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0227 src=351077 T=41 cx q=[591, 230] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0228 src=351086 T=41 cx q=[2027, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0229 src=351096 T=41 cx q=[897, 2027] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2027
+0230 src=351108 T=41 cx q=[501, 2027] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2027
+0231 src=351118 T=41 cx q=[501, 548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:501
+0232 src=351128 T=41 h q=[548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0233 src=351135 T=41 cx q=[548, 2608] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0234 src=351140 T=41 cx q=[2608, 1557] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2608
+0235 src=351147 T=42 tdg q=[2608] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2608
+0236 src=351190 T=42 cx q=[2608, 1557] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2608
+0237 src=351211 T=42 cx q=[548, 2608] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2608
+0238 src=351234 T=42 h q=[548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0239 src=351256 T=42 s q=[548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0240 src=351268 T=42 cx q=[548, 1949] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0241 src=351283 T=42 h q=[548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0242 src=351290 T=42 mm q=[548, 2608, 1184] cond=None meas=9986 reverse_state_round_7_byte_5 edge=wire:548
+0243 src=351311 T=42 cx q=[1623, 548] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0244 src=351327 T=42 x q=[548] cond=9986 meas=None reverse_state_round_7_byte_5 edge=wire:548
+0245 src=351372 T=42 cx q=[548, 1289] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:548
+0246 src=351391 T=42 cx q=[1289, 1280] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:1289
+0247 src=351411 T=42 cx q=[1280, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:1280
+0248 src=351429 T=42 cx q=[591, 1524] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0249 src=351449 T=42 cx q=[591, 1343] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0250 src=351473 T=42 cx q=[591, 516] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0251 src=351490 T=42 cx q=[591, 2749] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0252 src=351507 T=42 cx q=[2027, 591] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:591
+0253 src=351521 T=42 cx q=[2027, 2815] cond=None meas=None reverse_state_round_7_byte_5 edge=wire:2027
+0254 src=351541 T=42 mm q=[2608, 2815, 1560] cond=None meas=9998 reverse_state_round_7_byte_5 edge=wire:2815
+0255 src=386455 T=42 cx q=[323, 2608] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2608
+0256 src=386476 T=42 cx q=[1511, 323] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:323
+0257 src=386489 T=42 cx q=[323, 1400] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:323
+0258 src=386495 T=42 cx q=[1400, 1457] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1400
+0259 src=386509 T=42 cx q=[1400, 2309] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1400
+0260 src=386518 T=42 cx q=[805, 1400] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1400
+0261 src=386525 T=42 cx q=[805, 321] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0262 src=386568 T=43 tdg q=[321] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:321
+0263 src=386591 T=43 cx q=[805, 321] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:321
+0264 src=386610 T=43 cx q=[805, 1400] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0265 src=386626 T=43 h q=[805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0266 src=386644 T=43 s q=[805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0267 src=386662 T=43 cx q=[2204, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0268 src=386674 T=43 cx q=[516, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0269 src=386682 T=43 cx q=[1400, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0270 src=386693 T=43 cx q=[805, 323] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0271 src=386703 T=43 cx q=[805, 1511] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0272 src=386712 T=43 cx q=[321, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0273 src=386724 T=43 cx q=[805, 361] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0274 src=386734 T=43 cx q=[516, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0275 src=386743 T=43 cx q=[805, 1608] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0276 src=386755 T=43 cx q=[2204, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0277 src=386768 T=43 cx q=[805, 2506] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0278 src=386774 T=43 cx q=[2550, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0279 src=386780 T=43 cx q=[805, 2817] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0280 src=386843 T=44 tdg q=[2817] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2817
+0281 src=386848 T=44 cx q=[805, 2817] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2817
+0282 src=386871 T=44 cx q=[2550, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0283 src=386891 T=44 cx q=[805, 2204] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0284 src=386950 T=44 cx q=[175, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0285 src=386983 T=44 cx q=[805, 2980] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0286 src=387000 T=44 cx q=[805, 2635] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0287 src=387027 T=44 cx q=[805, 175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0288 src=387040 T=44 cx q=[805, 2506] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0289 src=387049 T=44 cx q=[2204, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0290 src=387059 T=44 cx q=[1511, 2204] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2204
+0291 src=387071 T=44 cx q=[2936, 2204] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2204
+0292 src=387081 T=44 cx q=[2936, 175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2936
+0293 src=387091 T=44 h q=[175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0294 src=387098 T=44 cx q=[175, 2192] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0295 src=387103 T=44 cx q=[2192, 2114] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2192
+0296 src=387110 T=45 tdg q=[2192] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2192
+0297 src=387153 T=45 cx q=[2192, 2114] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2192
+0298 src=387174 T=45 cx q=[175, 2192] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2192
+0299 src=387197 T=45 h q=[175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0300 src=387219 T=45 s q=[175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0301 src=387231 T=45 cx q=[175, 759] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0302 src=387246 T=45 h q=[175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0303 src=387253 T=45 mm q=[175, 2192, 2047] cond=None meas=11120 reverse_state_round_6_byte_15 edge=wire:175
+0304 src=387274 T=45 cx q=[1298, 175] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0305 src=387290 T=45 x q=[175] cond=11120 meas=None reverse_state_round_6_byte_15 edge=wire:175
+0306 src=387335 T=45 cx q=[175, 2399] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:175
+0307 src=387354 T=45 cx q=[2399, 2091] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2399
+0308 src=387374 T=45 cx q=[2091, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2091
+0309 src=387392 T=45 cx q=[805, 1964] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0310 src=387412 T=45 cx q=[805, 978] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0311 src=387436 T=45 cx q=[805, 2980] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0312 src=387453 T=45 cx q=[805, 361] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0313 src=387470 T=45 cx q=[2204, 805] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:805
+0314 src=387484 T=45 cx q=[2204, 2281] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2204
+0315 src=387505 T=45 h q=[2204] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2204
+0316 src=387520 T=45 mm q=[2204, 1457, 323] cond=None meas=11140 reverse_state_round_6_byte_15 edge=wire:2204
+0317 src=387542 T=45 cx q=[1457, 323] cond=11140 meas=None reverse_state_round_6_byte_15 edge=feedback
+0318 src=387560 T=45 cx q=[1964, 1457] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1457
+0319 src=387571 T=45 cx q=[2114, 1964] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1964
+0320 src=387580 T=45 cx q=[1964, 2091] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1964
+0321 src=387588 T=45 cx q=[1964, 1043] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1964
+0322 src=387597 T=45 cx q=[846, 1964] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1964
+0323 src=387606 T=45 cx q=[223, 846] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:846
+0324 src=387614 T=45 cx q=[2475, 223] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:223
+0325 src=387623 T=45 cx q=[223, 2309] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:223
+0326 src=387631 T=45 cx q=[2309, 2633] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2309
+0327 src=387639 T=45 h q=[2309] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2309
+0328 src=387651 T=45 mm q=[548, 1511, 2309] cond=None meas=11150 reverse_state_round_6_byte_15 edge=wire:2309
+0329 src=387662 T=45 cx q=[1511, 2309] cond=11150 meas=None reverse_state_round_6_byte_15 edge=feedback
+0330 src=387677 T=45 cx q=[1511, 1298] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1511
+0331 src=387684 T=45 cx q=[1298, 884] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1298
+0332 src=387686 T=45 cx q=[1298, 2608] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1298
+0333 src=387690 T=45 cx q=[1298, 2817] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1298
+0334 src=387697 T=45 cx q=[321, 2817] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:2817
+0335 src=387701 T=45 cx q=[2720, 321] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:321
+0336 src=387704 T=45 cx q=[1298, 321] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:321
+0337 src=387709 T=45 cx q=[1515, 1298] cond=None meas=None reverse_state_round_6_byte_15 edge=wire:1298
+0338 src=393279 T=45 cx q=[124, 1298] cond=None meas=None linear_or_round_key edge=wire:1298
+0339 src=393627 T=45 cx q=[1298, 932] cond=None meas=None linear_or_round_key edge=wire:1298
+0340 src=393636 T=45 cx q=[932, 397] cond=None meas=None linear_or_round_key edge=wire:932
+0341 src=393646 T=45 cx q=[932, 1400] cond=None meas=None linear_or_round_key edge=wire:932
+0342 src=393654 T=45 cx q=[600, 932] cond=None meas=None linear_or_round_key edge=wire:932
+0343 src=393663 T=45 cx q=[932, 1400] cond=None meas=None linear_or_round_key edge=wire:932
+0344 src=393682 T=45 cx q=[932, 417] cond=None meas=None linear_or_round_key edge=wire:932
+0345 src=393686 T=45 cx q=[417, 321] cond=None meas=None linear_or_round_key edge=wire:417
+0346 src=393698 T=45 cx q=[417, 1087] cond=None meas=None linear_or_round_key edge=wire:417
+0347 src=393714 T=45 cx q=[2995, 1087] cond=None meas=None linear_or_round_key edge=wire:1087
+0348 src=400277 T=45 cx q=[600, 1087] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1087
+0349 src=400295 T=45 cx q=[1087, 549] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1087
+0350 src=400303 T=45 cx q=[549, 600] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:549
+0351 src=400312 T=45 cx q=[600, 724] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:600
+0352 src=400322 T=45 cx q=[724, 397] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:724
+0353 src=400334 T=45 cx q=[724, 449] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:724
+0354 src=400346 T=45 cx q=[1087, 724] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:724
+0355 src=401071 T=45 cx q=[2162, 1087] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1087
+0356 src=401066 T=45 cx q=[1042, 1087] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1087
+0357 src=401079 T=45 cx q=[1042, 724] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1042
+0358 src=401092 T=45 h q=[1042] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1042
+0359 src=401098 T=45 mm q=[1042, 1812, 426] cond=None meas=11535 reverse_state_round_5_byte_6 edge=wire:1042
+0360 src=401114 T=45 cx q=[1812, 426] cond=11535 meas=None reverse_state_round_5_byte_6 edge=feedback
+0361 src=401142 T=45 h q=[426] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:426
+0362 src=401170 T=45 cx q=[1966, 426] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:426
+0363 src=401240 T=45 cx q=[1059, 426] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:426
+0364 src=401264 T=45 cx q=[2101, 1059] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1059
+0365 src=401283 T=45 cx q=[1059, 1868] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1059
+0366 src=401301 T=45 cx q=[1059, 155] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1059
+0367 src=401317 T=45 h q=[1059] cond=None meas=None reverse_state_round_5_byte_6 edge=wire:1059
+0368 src=401332 T=45 mm q=[1059, 1791, 198] cond=None meas=11561 reverse_state_round_5_byte_6 edge=wire:1059
+0369 src=401357 T=45 cx q=[1791, 198] cond=11561 meas=None reverse_state_round_5_byte_6 edge=feedback
+0370 src=444164 T=45 cx q=[1708, 1791] cond=None meas=None reverse_key_round_4_byte_1 edge=wire:1791
+0371 src=444167 T=45 cx q=[1659, 1708] cond=None meas=None reverse_key_round_4_byte_1 edge=wire:1708
+0372 src=444178 T=45 cx q=[1659, 2043] cond=None meas=None reverse_key_round_4_byte_1 edge=wire:1659
+0373 src=400070 T=45 cx q=[1728, 2043] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2043
+0374 src=400088 T=45 cx q=[1683, 1728] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1728
+0375 src=400107 T=45 cx q=[607, 1683] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0376 src=400100 T=45 cx q=[1033, 1683] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0377 src=400117 T=45 cx q=[1683, 2681] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0378 src=400126 T=45 cx q=[1683, 644] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0379 src=400136 T=45 cx q=[1179, 1683] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0380 src=400142 T=45 cx q=[607, 1683] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0381 src=400153 T=45 cx q=[1683, 1728] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1683
+0382 src=400160 T=45 cx q=[885, 1728] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1728
+0383 src=400168 T=45 h q=[1728] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1728
+0384 src=400177 T=45 mm q=[1728, 885, 2665] cond=None meas=11526 reverse_state_round_5_byte_1 edge=wire:1728
+0385 src=400190 T=45 cx q=[885, 2665] cond=11526 meas=None reverse_state_round_5_byte_1 edge=feedback
+0386 src=400202 T=45 h q=[2665] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0387 src=400209 T=45 cx q=[2681, 2665] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0388 src=400216 T=45 cx q=[2665, 886] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0389 src=400220 T=45 cx q=[2665, 1033] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0390 src=400224 T=45 cx q=[2665, 1074] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0391 src=400228 T=45 cx q=[1361, 2665] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:2665
+0392 src=400232 T=45 cx q=[1361, 1920] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1361
+0393 src=400234 T=45 cx q=[1049, 1361] cond=None meas=None reverse_state_round_5_byte_1 edge=wire:1361
+0394 src=457841 T=45 cx q=[1021, 1361] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1361
+0395 src=457889 T=45 cx q=[1269, 1021] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1021
+0396 src=457901 T=45 cx q=[1021, 1013] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1021
+0397 src=457910 T=45 cx q=[1021, 2852] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1021
+0398 src=457920 T=45 cx q=[1545, 2852] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:2852
+0399 src=457928 T=45 cx q=[1269, 1545] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1545
+0400 src=457942 T=45 cx q=[1269, 1021] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0401 src=457951 T=45 cx q=[894, 1269] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0402 src=457961 T=45 cx q=[1269, 2580] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0403 src=458000 T=46 tdg q=[1269] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0404 src=458034 T=46 cx q=[1269, 2580] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0405 src=458043 T=46 cx q=[894, 1269] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1269
+0406 src=458059 T=46 h q=[894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0407 src=458077 T=46 s q=[894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0408 src=458095 T=46 cx q=[1961, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0409 src=458107 T=46 cx q=[2964, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0410 src=458115 T=46 cx q=[1269, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0411 src=458126 T=46 cx q=[894, 2173] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0412 src=458136 T=46 cx q=[894, 445] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0413 src=458145 T=46 cx q=[2172, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0414 src=458157 T=46 cx q=[894, 2852] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0415 src=458167 T=46 cx q=[2964, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0416 src=458176 T=46 cx q=[894, 2041] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0417 src=458188 T=46 cx q=[1961, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0418 src=458201 T=46 cx q=[894, 1459] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0419 src=458207 T=46 cx q=[2974, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0420 src=458213 T=46 cx q=[894, 2518] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0421 src=458276 T=47 tdg q=[2518] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:2518
+0422 src=458281 T=47 cx q=[894, 2518] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:2518
+0423 src=458304 T=47 cx q=[2974, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0424 src=458324 T=47 cx q=[894, 1961] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0425 src=458383 T=47 cx q=[360, 894] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0426 src=458416 T=47 cx q=[894, 344] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0427 src=458433 T=47 cx q=[894, 2411] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0428 src=458460 T=47 cx q=[894, 360] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:894
+0429 src=458472 T=47 cx q=[2173, 360] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:360
+0430 src=458483 T=47 cx q=[360, 1470] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:360
+0431 src=458497 T=47 h q=[1470] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1470
+0432 src=458510 T=47 cx q=[1470, 1248] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1470
+0433 src=458522 T=47 cx q=[1248, 2686] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:1248
+0434 src=458575 T=48 t q=[2686] cond=None meas=None reverse_state_round_3_byte_8 edge=wire:2686
+0435 src=469705 T=48 cx q=[2907, 2686] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2686
+0436 src=469706 T=48 cx q=[2904, 2907] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2907
+0437 src=469724 T=48 cx q=[147, 2904] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2904
+0438 src=469746 T=48 cx q=[147, 2906] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0439 src=469822 T=49 tdg q=[2906] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2906
+0440 src=469845 T=49 cx q=[147, 2906] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2906
+0441 src=469850 T=49 cx q=[147, 2904] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0442 src=469858 T=49 h q=[147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0443 src=469866 T=49 s q=[147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0444 src=469876 T=49 cx q=[490, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0445 src=469881 T=49 cx q=[2904, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0446 src=469889 T=49 cx q=[513, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0447 src=469897 T=49 cx q=[147, 2911] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0448 src=469904 T=49 cx q=[147, 2905] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0449 src=469914 T=49 cx q=[2906, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0450 src=469924 T=49 cx q=[147, 2570] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0451 src=469938 T=49 cx q=[513, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0452 src=469950 T=49 cx q=[513, 2848] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:513
+0453 src=469980 T=49 cx q=[2848, 2520] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0454 src=469961 T=49 cx q=[2848, 2912] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0455 src=470010 T=49 cx q=[2848, 800] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0456 src=470035 T=49 cx q=[800, 2905] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:800
+0457 src=470052 T=50 tdg q=[800] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:800
+0458 src=470109 T=50 cx q=[800, 2905] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:800
+0459 src=470110 T=50 cx q=[2905, 2500] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2905
+0460 src=470112 T=50 cx q=[2500, 800] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0461 src=470118 T=50 h q=[2500] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0462 src=470126 T=50 cx q=[2500, 1675] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0463 src=470137 T=50 cx q=[2500, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0464 src=470151 T=50 cx q=[2500, 846] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0465 src=470163 T=50 cx q=[2500, 2848] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2500
+0466 src=470178 T=50 cx q=[2848, 1109] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0467 src=470196 T=50 cx q=[2848, 2500] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0468 src=470212 T=50 cx q=[147, 2848] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2848
+0469 src=470228 T=50 cx q=[490, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0470 src=470247 T=50 cx q=[2908, 490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0471 src=470264 T=50 cx q=[2694, 490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0472 src=470281 T=50 cx q=[2905, 490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0473 src=470301 T=50 h q=[490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0474 src=470326 T=50 cx q=[490, 934] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0475 src=470352 T=50 cx q=[490, 2435] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0476 src=470384 T=51 tdg q=[2435] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2435
+0477 src=470431 T=51 cx q=[490, 2435] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2435
+0478 src=470446 T=51 cx q=[490, 934] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0479 src=470459 T=51 h q=[490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0480 src=470474 T=51 cx q=[490, 22] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0481 src=470483 T=51 cx q=[22, 18] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:22
+0482 src=470505 T=51 cx q=[1988, 22] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:22
+0483 src=470525 T=51 h q=[1988] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0484 src=470543 T=51 mm q=[1988, 2912, 1431] cond=None meas=13722 reverse_key_round_3_byte_2 edge=wire:1988
+0485 src=470554 T=51 cx q=[2905, 1988] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0486 src=470569 T=51 x q=[1988] cond=13722 meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0487 src=470578 T=51 cx q=[1988, 1267] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0488 src=470595 T=51 cx q=[147, 1988] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0489 src=470607 T=51 cx q=[1988, 490] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1988
+0490 src=470622 T=51 cx q=[490, 1205] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:490
+0491 src=470637 T=51 h q=[1205] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1205
+0492 src=470657 T=51 mm q=[2849, 1865, 1205] cond=None meas=13735 reverse_key_round_3_byte_2 edge=wire:1205
+0493 src=470673 T=51 cx q=[1865, 1205] cond=13735 meas=None reverse_key_round_3_byte_2 edge=feedback
+0494 src=470694 T=51 h q=[1205] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1205
+0495 src=470720 T=51 cx q=[147, 1205] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1205
+0496 src=470746 T=51 cx q=[1459, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0497 src=470763 T=51 cx q=[147, 462] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0498 src=470782 T=51 cx q=[2250, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0499 src=470795 T=51 cx q=[147, 2570] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0500 src=470808 T=51 cx q=[2906, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0501 src=470818 T=51 cx q=[147, 2905] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0502 src=470825 T=51 cx q=[147, 2911] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0503 src=470834 T=51 cx q=[2250, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0504 src=470846 T=51 cx q=[2904, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0505 src=470861 T=51 cx q=[1459, 147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0506 src=470874 T=51 h q=[147] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:147
+0507 src=470887 T=51 mm q=[147, 2904, 2906] cond=None meas=13752 reverse_key_round_3_byte_2 edge=wire:147
+0508 src=470902 T=51 cx q=[2904, 2906] cond=13752 meas=None reverse_key_round_3_byte_2 edge=feedback
+0509 src=470917 T=51 cx q=[2904, 1691] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2904
+0510 src=470928 T=51 cx q=[1691, 2909] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:1691
+0511 src=470949 T=51 cx q=[2907, 2909] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2909
+0512 src=470955 T=51 cx q=[2907, 926] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2907
+0513 src=470961 T=51 cx q=[2907, 2908] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2907
+0514 src=470966 T=51 cx q=[2904, 2907] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2907
+0515 src=470974 T=51 cx q=[2907, 1865] cond=None meas=None reverse_key_round_3_byte_2 edge=wire:2907
+0516 src=473697 T=51 cx q=[123, 2907] cond=None meas=None linear_or_round_key edge=wire:2907
+0517 src=495133 T=51 cx q=[91, 123] cond=None meas=None linear_or_round_key edge=wire:123
+0518 src=495165 T=51 cx q=[59, 91] cond=None meas=None linear_or_round_key edge=wire:91
+0519 src=495197 T=51 cx q=[27, 59] cond=None meas=None linear_or_round_key edge=wire:59
+0520 src=495883 T=51 cx q=[24, 27] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:27
+0521 src=495929 T=51 cx q=[27, 25] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:27
+0522 src=495931 T=51 cx q=[25, 24] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:25
+0523 src=495936 T=51 cx q=[24, 31] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:24
+0524 src=495958 T=51 cx q=[31, 28] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:31
+0525 src=495971 T=51 cx q=[28, 30] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:28
+0526 src=495991 T=51 cx q=[1906, 28] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:28
+0527 src=496006 T=51 h q=[1906] cond=None meas=None reverse_key_round_2_byte_3 edge=wire:1906
+0528 src=496026 T=51 mm q=[1906, 950, 2048] cond=None meas=14513 reverse_key_round_2_byte_3 edge=wire:1906
+0529 src=526049 T=51 cx q=[264, 1906] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1906
+0530 src=526058 T=51 cx q=[265, 264] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0531 src=526062 T=51 cx q=[264, 267] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0532 src=526068 T=51 cx q=[264, 269] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0533 src=526080 T=51 cx q=[2045, 264] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0534 src=526097 T=51 cx q=[264, 2301] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0535 src=526177 T=52 tdg q=[264] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0536 src=526202 T=52 cx q=[264, 2301] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0537 src=526206 T=52 cx q=[2045, 264] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:264
+0538 src=526214 T=52 h q=[2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0539 src=526222 T=52 s q=[2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0540 src=526232 T=52 cx q=[2173, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0541 src=526237 T=52 cx q=[264, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0542 src=526245 T=52 cx q=[2237, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0543 src=526253 T=52 cx q=[2045, 271] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0544 src=526260 T=52 cx q=[2045, 265] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0545 src=526270 T=52 cx q=[266, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0546 src=526280 T=52 cx q=[2045, 1661] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0547 src=526294 T=52 cx q=[2237, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0548 src=526306 T=52 cx q=[2237, 1981] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2237
+0549 src=526336 T=52 cx q=[1981, 2946] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0550 src=526317 T=52 cx q=[1981, 471] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0551 src=526366 T=52 cx q=[1981, 1088] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0552 src=526391 T=52 cx q=[1088, 265] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1088
+0553 src=526408 T=53 tdg q=[1088] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1088
+0554 src=526465 T=53 cx q=[1088, 265] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1088
+0555 src=526466 T=53 cx q=[265, 1545] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:265
+0556 src=526468 T=53 cx q=[1545, 1088] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0557 src=526474 T=53 h q=[1545] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0558 src=526482 T=53 cx q=[1545, 700] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0559 src=526493 T=53 cx q=[1545, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0560 src=526507 T=53 cx q=[1545, 1095] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0561 src=526519 T=53 cx q=[1545, 1981] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1545
+0562 src=526534 T=53 cx q=[1981, 1158] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0563 src=526552 T=53 cx q=[1981, 1545] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0564 src=526568 T=53 cx q=[2045, 1981] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1981
+0565 src=526584 T=53 cx q=[2173, 2045] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2045
+0566 src=526603 T=53 cx q=[268, 2173] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0567 src=526620 T=53 cx q=[3010, 2173] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0568 src=526637 T=53 cx q=[265, 2173] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0569 src=526657 T=53 h q=[2173] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0570 src=526682 T=53 cx q=[2173, 2493] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0571 src=526708 T=53 cx q=[2173, 1414] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0572 src=526740 T=54 tdg q=[1414] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1414
+0573 src=526787 T=54 cx q=[2173, 1414] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1414
+0574 src=526802 T=54 cx q=[2173, 2493] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0575 src=526815 T=54 h q=[2173] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0576 src=526830 T=54 cx q=[2173, 6] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:2173
+0577 src=526839 T=54 cx q=[6, 2] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:6
+0578 src=526861 T=54 cx q=[2347, 6] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:6
+0579 src=527282 T=54 cx q=[4, 6] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:6
+0580 src=527291 T=54 cx q=[7, 4] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:4
+0581 src=527309 T=54 cx q=[0, 7] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:7
+0582 src=527315 T=54 cx q=[1, 0] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:0
+0583 src=527320 T=54 cx q=[3, 1] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1
+0584 src=527326 T=54 cx q=[1, 4] cond=None meas=None reverse_key_round_1_byte_0 edge=wire:1
+0585 src=527404 T=54 cx q=[4, 301] cond=None meas=None linear_or_round_key edge=wire:4
+0586 src=527534 T=54 cx q=[301, 132] cond=None meas=None linear_or_round_key edge=wire:301
+0587 src=527535 T=54 cx q=[132, 301] cond=None meas=None linear_or_round_key edge=wire:132,301
+0588 src=527536 T=54 cx q=[301, 132] cond=None meas=None linear_or_round_key edge=wire:132,301

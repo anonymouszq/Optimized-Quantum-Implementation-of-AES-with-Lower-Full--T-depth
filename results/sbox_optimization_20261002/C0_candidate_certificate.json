@@ -1,0 +1,7307 @@
+{
+  "events": [
+    {
+      "kind": "prep",
+      "wires": [
+        16
+      ],
+      "logical_target": 47
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        17
+      ],
+      "logical_target": 48
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        18
+      ],
+      "logical_target": 49
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        19
+      ],
+      "logical_target": 50
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        20
+      ],
+      "logical_target": 51
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        21
+      ],
+      "logical_target": 52
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        22
+      ],
+      "logical_target": 53
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        23
+      ],
+      "logical_target": 54
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        24
+      ],
+      "logical_target": 55
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        25
+      ],
+      "logical_target": 56
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        26
+      ],
+      "logical_target": 57
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        27
+      ],
+      "logical_target": 58
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        28
+      ],
+      "logical_target": 59
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        29
+      ],
+      "logical_target": 60
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        30
+      ],
+      "logical_target": 61
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        31
+      ],
+      "logical_target": 62
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        32
+      ],
+      "logical_target": 63
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        33
+      ],
+      "logical_target": 64
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        34
+      ],
+      "logical_target": 65
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        35
+      ],
+      "logical_target": 66
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        36
+      ],
+      "logical_target": 67
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        8
+      ],
+      "logical_target": 68
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        9
+      ],
+      "logical_target": 69
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        10
+      ],
+      "logical_target": 70
+    },
+    {
+      "kind": "prep",
+      "wires": [
+        11
+      ],
+      "logical_target": 71
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        4
+      ],
+      "logical": [
+        6,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        1
+      ],
+      "logical": [
+        2,
+        1
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        37
+      ],
+      "logical": [
+        6,
+        12
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        38
+      ],
+      "logical": [
+        5,
+        14
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        39
+      ],
+      "logical": [
+        1,
+        11
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        40
+      ],
+      "logical": [
+        3,
+        16
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        40
+      ],
+      "logical": [
+        5,
+        16
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        3
+      ],
+      "logical": [
+        0,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        2
+      ],
+      "logical": [
+        4,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        2
+      ],
+      "logical": [
+        5,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        5
+      ],
+      "logical": [
+        6,
+        5
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        4
+      ],
+      "logical": [
+        3,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        37
+      ],
+      "logical": [
+        0,
+        12
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        41
+      ],
+      "logical": [
+        1,
+        15
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        38
+      ],
+      "logical": [
+        0,
+        14
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        1
+      ],
+      "logical": [
+        7,
+        1
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        42
+      ],
+      "logical": [
+        3,
+        8
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        0
+      ],
+      "logical": [
+        1,
+        0
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        6
+      ],
+      "logical": [
+        1,
+        6
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        41
+      ],
+      "logical": [
+        4,
+        15
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        43
+      ],
+      "logical": [
+        4,
+        9
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        39
+      ],
+      "logical": [
+        2,
+        11
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        44
+      ],
+      "logical": [
+        2,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        45
+      ],
+      "logical": [
+        2,
+        13
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        2
+      ],
+      "logical": [
+        1,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        44
+      ],
+      "logical": [
+        4,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        46
+      ],
+      "logical": [
+        3,
+        10
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        42
+      ],
+      "logical": [
+        5,
+        8
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        5
+      ],
+      "logical": [
+        0,
+        5
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        3
+      ],
+      "logical": [
+        0,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        4
+      ],
+      "logical": [
+        7,
+        4
+      ]
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        5,
+        4,
+        47,
+        48
+      ],
+      "logical": [
+        5,
+        4,
+        18
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        3,
+        7,
+        49,
+        50
+      ],
+      "logical": [
+        3,
+        7,
+        19
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        6,
+        1,
+        51,
+        52
+      ],
+      "logical": [
+        6,
+        1,
+        20
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        2,
+        0,
+        53,
+        12
+      ],
+      "logical": [
+        2,
+        0,
+        21
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        42,
+        43,
+        54,
+        55
+      ],
+      "logical": [
+        8,
+        9,
+        22
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        39,
+        46,
+        56,
+        15
+      ],
+      "logical": [
+        11,
+        10,
+        23
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        45,
+        37,
+        57,
+        58
+      ],
+      "logical": [
+        13,
+        12,
+        24
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        41,
+        38,
+        59,
+        60
+      ],
+      "logical": [
+        15,
+        14,
+        25
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        44,
+        40,
+        61,
+        62
+      ],
+      "logical": [
+        17,
+        16,
+        26
+      ],
+      "stage": 1
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        53
+      ],
+      "logical": [
+        0,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        42
+      ],
+      "logical": [
+        12,
+        8
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        56,
+        59
+      ],
+      "logical": [
+        23,
+        25
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        47
+      ],
+      "logical": [
+        17,
+        18
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        54
+      ],
+      "logical": [
+        15,
+        22
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        39
+      ],
+      "logical": [
+        3,
+        11
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        43
+      ],
+      "logical": [
+        13,
+        9
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        60
+      ],
+      "logical": [
+        16,
+        31
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        4
+      ],
+      "logical": [
+        2,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        55
+      ],
+      "logical": [
+        14,
+        33
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        0
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        46,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        6
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        7
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        15
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        42
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        51
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        55,
+        54
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        56,
+        61
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        51,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        7
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        7
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        47,
+        61
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        54,
+        61
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        12
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        12
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        5
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        43,
+        5
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        58,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        54,
+        59
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        49,
+        59
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        63
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        6
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        51
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        60
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        54
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        42
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        1
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        50
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        0
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        39
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        55
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        1
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        46
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        55,
+        46
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        4
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        4
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        15
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        50,
+        15
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        54
+      ],
+      "logical": [
+        14,
+        22
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        12,
+        3
+      ],
+      "logical": [
+        8,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        46,
+        64
+      ],
+      "logical": [
+        39,
+        10
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        65
+      ],
+      "logical": [
+        27,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        66
+      ],
+      "logical": [
+        43,
+        30
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        61
+      ],
+      "logical": [
+        25,
+        26
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        67
+      ],
+      "logical": [
+        21,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        68
+      ],
+      "logical": [
+        24,
+        35
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "logical": [
+        24,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        69
+      ],
+      "logical": [
+        25,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        70
+      ],
+      "logical": [
+        26,
+        34
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        67,
+        14
+      ],
+      "logical": [
+        32,
+        45
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        13
+      ],
+      "logical": [
+        26,
+        6
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        71
+      ],
+      "logical": [
+        21,
+        36
+      ]
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        5,
+        4,
+        16
+      ],
+      "logical": [
+        5,
+        4,
+        47
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        69,
+        7,
+        17
+      ],
+      "logical": [
+        3,
+        7,
+        48
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        13,
+        1,
+        18
+      ],
+      "logical": [
+        6,
+        1,
+        49
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        43,
+        12,
+        19
+      ],
+      "logical": [
+        9,
+        8,
+        50
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        39,
+        64,
+        20
+      ],
+      "logical": [
+        11,
+        10,
+        51
+      ],
+      "stage": 2,
+      "variant": "chain"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        42,
+        6,
+        21
+      ],
+      "logical": [
+        28,
+        27,
+        52
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        63,
+        0,
+        22
+      ],
+      "logical": [
+        29,
+        0,
+        53
+      ],
+      "stage": 2,
+      "variant": "chain"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        66,
+        60,
+        23
+      ],
+      "logical": [
+        30,
+        31,
+        54
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        55,
+        67,
+        24
+      ],
+      "logical": [
+        33,
+        32,
+        55
+      ],
+      "stage": 2,
+      "variant": "chain"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        70,
+        37,
+        25
+      ],
+      "logical": [
+        34,
+        12,
+        56
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        68,
+        38,
+        26
+      ],
+      "logical": [
+        35,
+        14,
+        57
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        71,
+        40,
+        27
+      ],
+      "logical": [
+        36,
+        16,
+        58
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        3,
+        62,
+        28
+      ],
+      "logical": [
+        37,
+        38,
+        59
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        58,
+        46,
+        29
+      ],
+      "logical": [
+        40,
+        39,
+        60
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        65,
+        50,
+        30
+      ],
+      "logical": [
+        41,
+        42,
+        61
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        2,
+        59,
+        31
+      ],
+      "logical": [
+        2,
+        25,
+        62
+      ],
+      "stage": 2,
+      "variant": "chain"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        48,
+        15,
+        32
+      ],
+      "logical": [
+        44,
+        43,
+        63
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        14,
+        52,
+        33
+      ],
+      "logical": [
+        45,
+        46,
+        64
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        45,
+        61,
+        34
+      ],
+      "logical": [
+        13,
+        26,
+        65
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        41,
+        57,
+        35
+      ],
+      "logical": [
+        15,
+        24,
+        66
+      ],
+      "stage": 2,
+      "variant": "fork"
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        44,
+        53,
+        36
+      ],
+      "logical": [
+        17,
+        21,
+        67
+      ],
+      "stage": 2,
+      "variant": "chain"
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        57
+      ],
+      "logical": [
+        21,
+        24
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        70
+      ],
+      "logical": [
+        26,
+        34
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        34
+      ],
+      "logical": [
+        64,
+        65
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        63,
+        65
+      ],
+      "logical": [
+        29,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        68
+      ],
+      "logical": [
+        49,
+        35
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        55
+      ],
+      "logical": [
+        48,
+        33
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        35,
+        31
+      ],
+      "logical": [
+        66,
+        62
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        25
+      ],
+      "logical": [
+        55,
+        56
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        30
+      ],
+      "logical": [
+        67,
+        61
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        26,
+        22
+      ],
+      "logical": [
+        57,
+        53
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        67
+      ],
+      "logical": [
+        58,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        52
+      ],
+      "logical": [
+        17,
+        46
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        66,
+        3
+      ],
+      "logical": [
+        30,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        45
+      ],
+      "logical": [
+        2,
+        13
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        46
+      ],
+      "logical": [
+        47,
+        39
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        38
+      ],
+      "logical": [
+        16,
+        14
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        62
+      ],
+      "logical": [
+        63,
+        38
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        53
+      ],
+      "logical": [
+        49,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        34,
+        50
+      ],
+      "logical": [
+        65,
+        42
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        63
+      ],
+      "logical": [
+        48,
+        29
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        25,
+        70
+      ],
+      "logical": [
+        56,
+        34
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        62
+      ],
+      "logical": [
+        67,
+        38
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        67
+      ],
+      "logical": [
+        24,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        48
+      ],
+      "logical": [
+        17,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        20,
+        26
+      ],
+      "logical": [
+        51,
+        57
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        29,
+        35
+      ],
+      "logical": [
+        60,
+        66
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        67
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        19,
+        67
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        21,
+        70
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        70
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        46
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        46
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        28,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        68,
+        63
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        63
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        22,
+        25
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        21,
+        22
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        22
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        46,
+        66
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        66
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        17
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        46,
+        17
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        44
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        44
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        55
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        55
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        31,
+        34
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        31
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        61
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        40
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        71
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        18
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        50
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        30
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        60
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        41
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        68
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        14
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        26,
+        27
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        50
+      ],
+      "logical": [
+        13,
+        42
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        23,
+        67
+      ],
+      "logical": [
+        54,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        48
+      ],
+      "logical": [
+        2,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        62
+      ],
+      "logical": [
+        15,
+        38
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        61
+      ],
+      "logical": [
+        21,
+        26
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        35,
+        36
+      ],
+      "logical": [
+        66,
+        67
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        52
+      ],
+      "logical": [
+        48,
+        31
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        23,
+        26
+      ],
+      "logical": [
+        54,
+        57
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        65
+      ],
+      "logical": [
+        49,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        19,
+        27
+      ],
+      "logical": [
+        50,
+        58
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        66,
+        3
+      ],
+      "logical": [
+        30,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        71
+      ],
+      "logical": [
+        21,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        35
+      ],
+      "logical": [
+        64,
+        66
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        26
+      ],
+      "logical": [
+        55,
+        57
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        28,
+        36
+      ],
+      "logical": [
+        59,
+        67
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        15
+      ],
+      "logical": [
+        26,
+        43
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        60
+      ],
+      "logical": [
+        48,
+        40
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        63,
+        48
+      ],
+      "logical": [
+        29,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "logical": [
+        24,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        58
+      ],
+      "logical": [
+        48,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        35
+      ],
+      "logical": [
+        63,
+        66
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        53
+      ],
+      "logical": [
+        47,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        6
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        39,
+        40
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        43,
+        40
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        37
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        42,
+        37
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        61
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        59
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        18
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        13
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        13
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        7
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        0
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        39,
+        0
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        12,
+        4
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        57
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        57
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        12
+      ],
+      "compression": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        12
+      ],
+      "compression": true
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        67,
+        63,
+        4,
+        6
+      ],
+      "logical": [
+        32,
+        29,
+        43
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        66,
+        26,
+        7,
+        37
+      ],
+      "logical": [
+        30,
+        57,
+        73
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        52,
+        27,
+        9
+      ],
+      "logical": [
+        31,
+        58,
+        69
+      ],
+      "stage": 3,
+      "variant": "fork"
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        55,
+        70,
+        0,
+        40
+      ],
+      "logical": [
+        33,
+        34,
+        44
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        68,
+        25,
+        10
+      ],
+      "logical": [
+        35,
+        56,
+        70
+      ],
+      "stage": 3,
+      "variant": "fork"
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        58,
+        22,
+        14,
+        59
+      ],
+      "logical": [
+        36,
+        53,
+        74
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        62,
+        3,
+        65,
+        18
+      ],
+      "logical": [
+        38,
+        37,
+        45
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        35,
+        46,
+        15,
+        71
+      ],
+      "logical": [
+        66,
+        39,
+        75
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        60,
+        36,
+        11
+      ],
+      "logical": [
+        40,
+        67,
+        71
+      ],
+      "stage": 3,
+      "variant": "fork"
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        50,
+        48,
+        61,
+        13
+      ],
+      "logical": [
+        42,
+        41,
+        46
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and4",
+      "wires": [
+        34,
+        53,
+        12,
+        57
+      ],
+      "logical": [
+        65,
+        21,
+        72
+      ],
+      "stage": 3
+    },
+    {
+      "kind": "and3",
+      "wires": [
+        31,
+        17,
+        8
+      ],
+      "logical": [
+        62,
+        48,
+        68
+      ],
+      "stage": 3,
+      "variant": "fork"
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        58
+      ],
+      "logical": [
+        48,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        60
+      ],
+      "logical": [
+        48,
+        40
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        9
+      ],
+      "logical": [
+        43,
+        69
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        8
+      ],
+      "logical": [
+        46,
+        68
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        61,
+        12
+      ],
+      "logical": [
+        46,
+        72
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        50,
+        48,
+        61
+      ],
+      "measurement": 0,
+      "logical": [
+        42,
+        41,
+        46
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        11,
+        15
+      ],
+      "logical": [
+        71,
+        75
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        7
+      ],
+      "logical": [
+        43,
+        73
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        67,
+        63,
+        4
+      ],
+      "measurement": 1,
+      "logical": [
+        32,
+        29,
+        43
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        63,
+        48
+      ],
+      "logical": [
+        29,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        8,
+        7
+      ],
+      "logical": [
+        68,
+        73
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        65,
+        11
+      ],
+      "logical": [
+        45,
+        71
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        62,
+        3,
+        65
+      ],
+      "measurement": 2,
+      "logical": [
+        38,
+        37,
+        45
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        52
+      ],
+      "logical": [
+        48,
+        31
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        14,
+        10
+      ],
+      "logical": [
+        74,
+        70
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        10
+      ],
+      "logical": [
+        75,
+        70
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        12,
+        14
+      ],
+      "logical": [
+        72,
+        74
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        15,
+        12
+      ],
+      "logical": [
+        75,
+        72
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        8,
+        15
+      ],
+      "logical": [
+        68,
+        75
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        9,
+        8
+      ],
+      "logical": [
+        69,
+        68
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        14
+      ],
+      "logical": [
+        44,
+        74
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        70,
+        55,
+        0
+      ],
+      "measurement": 3,
+      "logical": [
+        34,
+        33,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        10,
+        7
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        13
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        59
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        40
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "x",
+      "wires": [
+        10
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        28,
+        36
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        4
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        4
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "x",
+      "wires": [
+        14
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        14,
+        15
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        35
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        11,
+        9
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        35
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        9,
+        12
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        37
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        68,
+        3
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        35,
+        36
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        50
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        8,
+        11
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        21,
+        22
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        66
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "x",
+      "wires": [
+        9
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        64,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        69,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        23,
+        67
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        17
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        58,
+        71
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        60
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        39,
+        60
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        39,
+        6
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        43,
+        6
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        23,
+        26
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        26
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        19,
+        27
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        26,
+        27
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        42,
+        18
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        18
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        30
+      ],
+      "logical": [
+        67,
+        61
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        63
+      ],
+      "logical": [
+        21,
+        29
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        46
+      ],
+      "logical": [
+        25,
+        39
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        67
+      ],
+      "logical": [
+        55,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        41
+      ],
+      "logical": [
+        13,
+        15
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        21,
+        70
+      ],
+      "logical": [
+        52,
+        34
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        28,
+        62
+      ],
+      "logical": [
+        59,
+        38
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        22
+      ],
+      "logical": [
+        58,
+        53
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        3
+      ],
+      "logical": [
+        48,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        31
+      ],
+      "logical": [
+        61,
+        62
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        55
+      ],
+      "logical": [
+        21,
+        33
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        65
+      ],
+      "logical": [
+        26,
+        43
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        37
+      ],
+      "logical": [
+        21,
+        26
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        66
+      ],
+      "logical": [
+        26,
+        30
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        66
+      ],
+      "logical": [
+        24,
+        30
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        61
+      ],
+      "logical": [
+        21,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        19,
+        67
+      ],
+      "logical": [
+        50,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        67
+      ],
+      "logical": [
+        58,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        63
+      ],
+      "logical": [
+        25,
+        29
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        71,
+        67
+      ],
+      "logical": [
+        49,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        71
+      ],
+      "logical": [
+        26,
+        49
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        71,
+        61
+      ],
+      "logical": [
+        49,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        62
+      ],
+      "logical": [
+        64,
+        38
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        42,
+        40,
+        21
+      ],
+      "measurement": 4,
+      "logical": [
+        28,
+        27,
+        52
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        22,
+        25
+      ],
+      "logical": [
+        53,
+        56
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        70
+      ],
+      "logical": [
+        58,
+        34
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        25,
+        70
+      ],
+      "logical": [
+        56,
+        34
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        4,
+        43,
+        19
+      ],
+      "measurement": 5,
+      "logical": [
+        8,
+        9,
+        50
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        17
+      ],
+      "logical": [
+        47,
+        48
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        55
+      ],
+      "logical": [
+        48,
+        33
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        31,
+        34
+      ],
+      "logical": [
+        62,
+        65
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        50
+      ],
+      "logical": [
+        61,
+        42
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        46
+      ],
+      "logical": [
+        21,
+        39
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        0
+      ],
+      "logical": [
+        2,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        0
+      ],
+      "logical": [
+        13,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        71,
+        37
+      ],
+      "logical": [
+        49,
+        26
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        3
+      ],
+      "logical": [
+        25,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        48
+      ],
+      "logical": [
+        17,
+        40
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        44
+      ],
+      "logical": [
+        2,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        44
+      ],
+      "logical": [
+        15,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        68
+      ],
+      "logical": [
+        47,
+        35
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        29,
+        35
+      ],
+      "logical": [
+        60,
+        66
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        20,
+        26
+      ],
+      "logical": [
+        51,
+        57
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        39,
+        64,
+        20
+      ],
+      "measurement": 6,
+      "logical": [
+        11,
+        10,
+        51
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        0
+      ],
+      "logical": [
+        17,
+        44
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        62
+      ],
+      "logical": [
+        67,
+        38
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        20
+      ],
+      "logical": [
+        24,
+        45
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        17,
+        63
+      ],
+      "logical": [
+        48,
+        29
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        13,
+        69,
+        17
+      ],
+      "measurement": 7,
+      "logical": [
+        7,
+        3,
+        48
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        34,
+        50
+      ],
+      "logical": [
+        65,
+        42
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        71,
+        53
+      ],
+      "logical": [
+        49,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        62
+      ],
+      "logical": [
+        63,
+        38
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        0,
+        65,
+        32
+      ],
+      "measurement": 8,
+      "logical": [
+        44,
+        43,
+        63
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        16,
+        46
+      ],
+      "logical": [
+        47,
+        39
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        46,
+        48,
+        29
+      ],
+      "measurement": 9,
+      "logical": [
+        39,
+        40,
+        60
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        52,
+        5,
+        16
+      ],
+      "measurement": 10,
+      "logical": [
+        4,
+        5,
+        47
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        45
+      ],
+      "logical": [
+        2,
+        13
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        66,
+        3
+      ],
+      "logical": [
+        30,
+        37
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        3,
+        62,
+        28
+      ],
+      "measurement": 11,
+      "logical": [
+        37,
+        38,
+        59
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        26,
+        22
+      ],
+      "logical": [
+        57,
+        53
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        19
+      ],
+      "logical": [
+        16,
+        31
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        19,
+        66,
+        23
+      ],
+      "measurement": 12,
+      "logical": [
+        31,
+        30,
+        54
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        6
+      ],
+      "logical": [
+        12,
+        16
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        36,
+        30
+      ],
+      "logical": [
+        67,
+        61
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        24,
+        25
+      ],
+      "logical": [
+        55,
+        56
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        35,
+        31
+      ],
+      "logical": [
+        66,
+        62
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        59,
+        2,
+        31
+      ],
+      "measurement": 13,
+      "logical": [
+        25,
+        2,
+        62
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        69
+      ],
+      "logical": [
+        25,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        71,
+        68
+      ],
+      "logical": [
+        49,
+        35
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        58,
+        1,
+        71
+      ],
+      "measurement": 14,
+      "logical": [
+        6,
+        1,
+        49
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        65,
+        66
+      ],
+      "logical": [
+        43,
+        30
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        63,
+        67
+      ],
+      "logical": [
+        29,
+        41
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        67,
+        50,
+        30
+      ],
+      "measurement": 15,
+      "logical": [
+        41,
+        42,
+        61
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        63,
+        60,
+        22
+      ],
+      "measurement": 16,
+      "logical": [
+        29,
+        0,
+        53
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        67
+      ],
+      "logical": [
+        27,
+        41
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        33,
+        34
+      ],
+      "logical": [
+        64,
+        65
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        46,
+        64
+      ],
+      "logical": [
+        39,
+        10
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        3
+      ],
+      "logical": [
+        8,
+        37
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        63
+      ],
+      "logical": [
+        25,
+        29
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        55
+      ],
+      "logical": [
+        14,
+        33
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        38
+      ],
+      "logical": [
+        16,
+        14
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        6,
+        61,
+        27
+      ],
+      "measurement": 17,
+      "logical": [
+        16,
+        36,
+        58
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        38,
+        68,
+        26
+      ],
+      "measurement": 18,
+      "logical": [
+        14,
+        35,
+        57
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        65
+      ],
+      "logical": [
+        1,
+        43
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        5
+      ],
+      "logical": [
+        27,
+        5
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        70
+      ],
+      "logical": [
+        15,
+        46
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        70
+      ],
+      "logical": [
+        17,
+        46
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        70,
+        20,
+        33
+      ],
+      "measurement": 19,
+      "logical": [
+        46,
+        45,
+        64
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        21
+      ],
+      "logical": [
+        24,
+        32
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        21,
+        55,
+        24
+      ],
+      "measurement": 20,
+      "logical": [
+        32,
+        33,
+        55
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        21,
+        20
+      ],
+      "logical": [
+        32,
+        45
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        57
+      ],
+      "logical": [
+        21,
+        24
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        53,
+        44,
+        36
+      ],
+      "measurement": 21,
+      "logical": [
+        21,
+        17,
+        67
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        57,
+        41,
+        35
+      ],
+      "measurement": 22,
+      "logical": [
+        24,
+        15,
+        66
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        61
+      ],
+      "logical": [
+        21,
+        36
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        68
+      ],
+      "logical": [
+        24,
+        35
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "logical": [
+        24,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        21
+      ],
+      "logical": [
+        21,
+        32
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        31
+      ],
+      "logical": [
+        26,
+        34
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        37,
+        45,
+        34
+      ],
+      "measurement": 23,
+      "logical": [
+        26,
+        13,
+        65
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        31,
+        18,
+        25
+      ],
+      "measurement": 24,
+      "logical": [
+        34,
+        12,
+        56
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        51
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        19
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        70,
+        39
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        31,
+        58
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        31
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        4
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        46
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        19,
+        55
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        55
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        40,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        40
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        40
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        1
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        1
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        70
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        70
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        54
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        54
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        54,
+        59
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        37
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        32
+      ],
+      "logical": [
+        0,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        53,
+        13
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        19
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        47,
+        37
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        56,
+        37
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        49,
+        59
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        51,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        60
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        42,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        62
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        50
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        42
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        43,
+        48
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        45,
+        43
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        43,
+        0
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        52
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        54
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        47
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        51
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        22
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        22
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        22,
+        32
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        39
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        39,
+        13
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        38,
+        27
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        27
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        37,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        56,
+        57
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        57,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        59,
+        53
+      ],
+      "semantic_linear": true
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        13,
+        32,
+        49
+      ],
+      "measurement": 25,
+      "logical": [
+        7,
+        3,
+        19
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        41,
+        54
+      ],
+      "logical": [
+        15,
+        22
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        44,
+        47
+      ],
+      "logical": [
+        17,
+        18
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        52,
+        27,
+        47
+      ],
+      "measurement": 26,
+      "logical": [
+        4,
+        5,
+        18
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        56,
+        59
+      ],
+      "logical": [
+        23,
+        25
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        38,
+        41,
+        59
+      ],
+      "measurement": 27,
+      "logical": [
+        14,
+        15,
+        25
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        39,
+        22,
+        56
+      ],
+      "measurement": 28,
+      "logical": [
+        11,
+        10,
+        23
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        30
+      ],
+      "logical": [
+        0,
+        6
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        30,
+        1,
+        51
+      ],
+      "measurement": 29,
+      "logical": [
+        6,
+        1,
+        20
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        60
+      ],
+      "logical": [
+        12,
+        0
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        53
+      ],
+      "logical": [
+        0,
+        21
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        60,
+        2,
+        53
+      ],
+      "measurement": 30,
+      "logical": [
+        0,
+        2,
+        21
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        52
+      ],
+      "logical": [
+        7,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        32
+      ],
+      "logical": [
+        0,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        22
+      ],
+      "logical": [
+        3,
+        10
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        27
+      ],
+      "logical": [
+        0,
+        5
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        2
+      ],
+      "logical": [
+        1,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        16
+      ],
+      "logical": [
+        16,
+        8
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        44,
+        6,
+        37
+      ],
+      "measurement": 31,
+      "logical": [
+        17,
+        16,
+        26
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        18,
+        16
+      ],
+      "logical": [
+        12,
+        8
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        45,
+        18,
+        57
+      ],
+      "measurement": 32,
+      "logical": [
+        13,
+        12,
+        24
+      ]
+    },
+    {
+      "kind": "cleanup",
+      "wires": [
+        16,
+        43,
+        54
+      ],
+      "measurement": 33,
+      "logical": [
+        8,
+        9,
+        22
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        45
+      ],
+      "logical": [
+        2,
+        13
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        43
+      ],
+      "logical": [
+        4,
+        9
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        16
+      ],
+      "logical": [
+        5,
+        8
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        16
+      ],
+      "logical": [
+        3,
+        8
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        44
+      ],
+      "logical": [
+        4,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        44
+      ],
+      "logical": [
+        2,
+        17
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        39
+      ],
+      "logical": [
+        2,
+        11
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        41
+      ],
+      "logical": [
+        4,
+        15
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        30
+      ],
+      "logical": [
+        1,
+        6
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        60
+      ],
+      "logical": [
+        1,
+        0
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        1
+      ],
+      "logical": [
+        7,
+        1
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        41
+      ],
+      "logical": [
+        1,
+        15
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        1,
+        39
+      ],
+      "logical": [
+        1,
+        11
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        38
+      ],
+      "logical": [
+        0,
+        14
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        18
+      ],
+      "logical": [
+        0,
+        12
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        18
+      ],
+      "logical": [
+        6,
+        12
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        52
+      ],
+      "logical": [
+        3,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        27
+      ],
+      "logical": [
+        6,
+        5
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        38
+      ],
+      "logical": [
+        5,
+        14
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        2
+      ],
+      "logical": [
+        5,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        2
+      ],
+      "logical": [
+        4,
+        2
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        32
+      ],
+      "logical": [
+        0,
+        3
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        6
+      ],
+      "logical": [
+        5,
+        16
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        6
+      ],
+      "logical": [
+        3,
+        16
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        2,
+        1
+      ],
+      "logical": [
+        2,
+        1
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        52
+      ],
+      "logical": [
+        6,
+        4
+      ]
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        60,
+        0
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        0,
+        60
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        32,
+        3
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        3,
+        32
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        52,
+        4
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        4,
+        52
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        27,
+        5
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        5,
+        27
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        30,
+        6
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        6,
+        30
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        7
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        7,
+        13
+      ],
+      "canonicalization": true
+    },
+    {
+      "kind": "cx",
+      "wires": [
+        13,
+        7
+      ],
+      "canonicalization": true
+    }
+  ],
+  "cancellations": [],
+  "layers": [
+    [
+      50,
+      55,
+      51,
+      53,
+      62,
+      126,
+      171,
+      186,
+      201,
+      97,
+      141,
+      81,
+      22,
+      4,
+      111,
+      156,
+      2,
+      96,
+      12,
+      28,
+      32,
+      30,
+      20,
+      38,
+      40,
+      0,
+      18,
+      36,
+      6,
+      10,
+      8,
+      16,
+      34,
+      14,
+      24,
+      42,
+      44,
+      26,
+      46,
+      48
+    ],
+    [
+      58,
+      57,
+      63,
+      56,
+      52,
+      203,
+      173,
+      143,
+      158,
+      322,
+      421,
+      454,
+      410,
+      311,
+      399,
+      487,
+      377
+    ],
+    [
+      61,
+      59,
+      54,
+      64,
+      188,
+      172,
+      202
+    ],
+    [
+      69,
+      65,
+      60,
+      76,
+      72,
+      174,
+      187,
+      204
+    ],
+    [
+      75,
+      67,
+      73,
+      66,
+      157,
+      190,
+      113,
+      189
+    ],
+    [
+      70,
+      71,
+      68,
+      79,
+      77,
+      205,
+      175,
+      159
+    ],
+    [
+      128,
+      80,
+      112,
+      142,
+      78,
+      98,
+      160
+    ],
+    [
+      74,
+      127,
+      82,
+      115,
+      83,
+      100,
+      144,
+      145,
+      99
+    ],
+    [
+      129,
+      84,
+      114,
+      130,
+      85
+    ],
+    [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      86,
+      87,
+      88,
+      89,
+      101,
+      102,
+      103,
+      104,
+      116,
+      117,
+      118,
+      119,
+      131,
+      132,
+      133,
+      134,
+      146,
+      147,
+      148,
+      149,
+      161,
+      162,
+      163,
+      164,
+      176,
+      177,
+      178,
+      179,
+      191,
+      192,
+      193,
+      194,
+      206,
+      207,
+      208,
+      209
+    ],
+    [
+      195,
+      120,
+      136,
+      196,
+      211,
+      165,
+      181,
+      135,
+      210,
+      150,
+      121,
+      105,
+      151,
+      90,
+      91,
+      106,
+      180,
+      166
+    ],
+    [
+      197,
+      137,
+      212,
+      182,
+      122,
+      152,
+      108,
+      167,
+      92,
+      153,
+      223,
+      123,
+      107,
+      93,
+      183,
+      138,
+      168,
+      411
+    ],
+    [
+      139,
+      199,
+      184,
+      214,
+      229,
+      230,
+      225,
+      154,
+      124,
+      169,
+      94,
+      236,
+      221,
+      261,
+      109,
+      253,
+      422,
+      476,
+      400,
+      355
+    ],
+    [
+      198,
+      200,
+      140,
+      241,
+      215,
+      185,
+      155,
+      125,
+      222,
+      244,
+      95,
+      227,
+      224,
+      258,
+      520,
+      217,
+      110,
+      170
+    ],
+    [
+      239,
+      218,
+      234,
+      233,
+      245,
+      232,
+      237,
+      278,
+      271,
+      213,
+      465,
+      432
+    ],
+    [
+      216,
+      235,
+      243,
+      220,
+      219,
+      260,
+      255,
+      267,
+      274,
+      240,
+      455
+    ],
+    [
+      238,
+      242,
+      226,
+      273,
+      247,
+      259,
+      277,
+      281,
+      333,
+      378,
+      443,
+      231
+    ],
+    [
+      270,
+      279,
+      262,
+      248,
+      228,
+      388,
+      250,
+      488,
+      344,
+      433
+    ],
+    [
+      246,
+      275,
+      263,
+      249,
+      251,
+      345,
+      266,
+      257
+    ],
+    [
+      283,
+      252,
+      254,
+      280,
+      268,
+      269,
+      276,
+      256
+    ],
+    [
+      282,
+      285,
+      264,
+      265,
+      509,
+      323,
+      272,
+      312,
+      477,
+      288,
+      334,
+      286
+    ],
+    [
+      284,
+      292,
+      291,
+      366,
+      289,
+      300,
+      287,
+      290,
+      444,
+      346
+    ],
+    [
+      294,
+      297,
+      367,
+      498,
+      295,
+      298,
+      356,
+      301,
+      379,
+      478,
+      335,
+      434,
+      456,
+      445
+    ],
+    [
+      299,
+      510,
+      466,
+      296,
+      324,
+      368,
+      302,
+      389,
+      489,
+      357,
+      313
+    ],
+    [
+      521,
+      293,
+      499,
+      467,
+      401,
+      390,
+      423
+    ],
+    [
+      522,
+      511,
+      500,
+      412
+    ],
+    [
+      303,
+      304,
+      305,
+      314,
+      315,
+      316,
+      325,
+      326,
+      327,
+      336,
+      337,
+      338,
+      347,
+      348,
+      349,
+      358,
+      359,
+      360,
+      369,
+      370,
+      371,
+      380,
+      381,
+      382,
+      391,
+      392,
+      393,
+      402,
+      403,
+      404,
+      413,
+      414,
+      415,
+      424,
+      425,
+      426,
+      435,
+      436,
+      437,
+      446,
+      447,
+      448,
+      457,
+      458,
+      459,
+      468,
+      469,
+      470,
+      479,
+      480,
+      481,
+      490,
+      491,
+      492,
+      501,
+      502,
+      503,
+      512,
+      513,
+      514,
+      523,
+      524,
+      525
+    ],
+    [
+      405,
+      504,
+      471,
+      328,
+      372,
+      394,
+      493,
+      526,
+      515,
+      416,
+      383,
+      460,
+      306,
+      427,
+      317,
+      350,
+      438,
+      482,
+      449,
+      339,
+      361
+    ],
+    [
+      373,
+      406,
+      505,
+      329,
+      472,
+      494,
+      527,
+      516,
+      461,
+      395,
+      417,
+      428,
+      384,
+      318,
+      307,
+      351,
+      534,
+      362,
+      450,
+      439,
+      483,
+      340,
+      554,
+      544
+    ],
+    [
+      506,
+      330,
+      407,
+      396,
+      374,
+      473,
+      531,
+      462,
+      517,
+      495,
+      418,
+      528,
+      546,
+      429,
+      385,
+      319,
+      308,
+      352,
+      631,
+      451,
+      341,
+      576,
+      484,
+      363,
+      748,
+      666
+    ],
+    [
+      532,
+      331,
+      408,
+      507,
+      375,
+      474,
+      543,
+      463,
+      397,
+      496,
+      419,
+      518,
+      583,
+      430,
+      529,
+      542,
+      320,
+      593,
+      309,
+      562,
+      634,
+      353,
+      566,
+      598,
+      452,
+      342,
+      364,
+      485,
+      636,
+      386,
+      596,
+      578,
+      618
+    ],
+    [
+      548,
+      409,
+      508,
+      376,
+      475,
+      560,
+      621,
+      571,
+      464,
+      550,
+      545,
+      587,
+      590,
+      440,
+      420,
+      552,
+      553,
+      628,
+      575,
+      519,
+      595,
+      703,
+      624,
+      343,
+      354,
+      365,
+      497,
+      398,
+      486,
+      387,
+      453
+    ],
+    [
+      582,
+      540,
+      537,
+      533,
+      538,
+      539,
+      541,
+      561,
+      536,
+      574,
+      630,
+      635,
+      559,
+      547,
+      441,
+      651,
+      620,
+      705,
+      622,
+      310
+    ],
+    [
+      535,
+      549,
+      551,
+      555,
+      579,
+      629,
+      431,
+      570,
+      556,
+      591,
+      321,
+      530,
+      584,
+      638,
+      564,
+      774,
+      619,
+      442
+    ],
+    [
+      585,
+      567,
+      580,
+      572,
+      588,
+      565,
+      606,
+      599,
+      678,
+      677,
+      558
+    ],
+    [
+      332,
+      569,
+      581,
+      607,
+      573,
+      613,
+      692,
+      679,
+      653,
+      557,
+      563,
+      776
+    ],
+    [
+      586,
+      594,
+      589,
+      612,
+      568,
+      637,
+      789,
+      592,
+      734,
+      681,
+      693,
+      597,
+      655,
+      680
+    ],
+    [
+      600,
+      604,
+      605,
+      704,
+      601,
+      577,
+      603,
+      640,
+      639,
+      694
+    ],
+    [
+      611,
+      614,
+      625,
+      602,
+      667,
+      610,
+      609,
+      616,
+      718,
+      706
+    ],
+    [
+      623,
+      617,
+      719,
+      760,
+      652,
+      720,
+      668,
+      790,
+      749,
+      733,
+      778,
+      608
+    ],
+    [
+      775,
+      722,
+      759,
+      615,
+      735,
+      750,
+      626,
+      721,
+      654
+    ],
+    [
+      761,
+      707,
+      632,
+      777,
+      791,
+      627,
+      737,
+      736
+    ],
+    [
+      763,
+      633,
+      762
+    ],
+    [
+      641,
+      642,
+      643,
+      644,
+      656,
+      657,
+      658,
+      659,
+      669,
+      670,
+      671,
+      682,
+      683,
+      684,
+      685,
+      695,
+      696,
+      697,
+      708,
+      709,
+      710,
+      711,
+      723,
+      724,
+      725,
+      726,
+      738,
+      739,
+      740,
+      741,
+      751,
+      752,
+      753,
+      764,
+      765,
+      766,
+      767,
+      779,
+      780,
+      781,
+      782,
+      792,
+      793,
+      794
+    ],
+    [
+      672,
+      660,
+      645,
+      754,
+      742,
+      698,
+      661,
+      795,
+      646,
+      727,
+      712,
+      783,
+      743,
+      686,
+      768,
+      784,
+      728,
+      713,
+      769,
+      687
+    ],
+    [
+      673,
+      662,
+      647,
+      755,
+      699,
+      744,
+      648,
+      796,
+      729,
+      714,
+      785,
+      688,
+      770,
+      730,
+      715,
+      771,
+      663,
+      689,
+      786,
+      874,
+      745
+    ],
+    [
+      674,
+      756,
+      700,
+      664,
+      649,
+      797,
+      746,
+      813,
+      731,
+      844,
+      716,
+      843,
+      852,
+      876,
+      787,
+      690,
+      857,
+      845,
+      772,
+      879,
+      881,
+      822,
+      800,
+      847,
+      877,
+      805,
+      836,
+      883,
+      862
+    ],
+    [
+      675,
+      665,
+      650,
+      701,
+      757,
+      747,
+      798,
+      866,
+      732,
+      854,
+      717,
+      788,
+      773,
+      691,
+      868,
+      878,
+      801,
+      875,
+      917,
+      863,
+      970
+    ],
+    [
+      812,
+      676,
+      811,
+      702,
+      804,
+      867,
+      799,
+      859,
+      869,
+      880,
+      873,
+      828,
+      908,
+      963
+    ],
+    [
+      802,
+      829,
+      803,
+      758,
+      882,
+      885,
+      872,
+      937,
+      884,
+      892,
+      938,
+      936,
+      887,
+      948
+    ],
+    [
+      814,
+      821,
+      835,
+      806,
+      894,
+      871,
+      914,
+      939,
+      927,
+      1018,
+      965,
+      830,
+      820
+    ],
+    [
+      815,
+      807,
+      823,
+      837,
+      940,
+      925,
+      984,
+      899,
+      831,
+      842
+    ],
+    [
+      824,
+      838,
+      816,
+      848,
+      808,
+      900,
+      946,
+      995,
+      1038,
+      1019,
+      941,
+      832,
+      850,
+      846
+    ],
+    [
+      849,
+      901,
+      896,
+      825,
+      839,
+      818,
+      810,
+      954,
+      809,
+      929,
+      942,
+      997,
+      1004,
+      1069,
+      943,
+      833
+    ],
+    [
+      897,
+      817,
+      918,
+      904,
+      865,
+      890,
+      932,
+      827,
+      841,
+      926,
+      1025,
+      928,
+      1047,
+      826,
+      834,
+      851
+    ],
+    [
+      855,
+      905,
+      889,
+      915,
+      933,
+      858,
+      819,
+      1029,
+      909,
+      907,
+      993,
+      888,
+      840,
+      957,
+      1080,
+      853
+    ],
+    [
+      919,
+      910,
+      902,
+      934,
+      906,
+      886,
+      935,
+      893,
+      860,
+      916,
+      945,
+      898,
+      1048,
+      1013,
+      964,
+      856,
+      861
+    ],
+    [
+      985,
+      895,
+      1003,
+      1032,
+      1045,
+      1053,
+      923,
+      944,
+      976,
+      1031,
+      903,
+      956,
+      994,
+      977,
+      870,
+      1063,
+      911,
+      1012,
+      966,
+      920,
+      864
+    ],
+    [
+      992,
+      955,
+      1046,
+      924,
+      1037,
+      931,
+      971,
+      996,
+      1068,
+      891,
+      958,
+      912,
+      1055,
+      921,
+      986,
+      987,
+      1079,
+      913,
+      1086,
+      967,
+      922,
+      968
+    ],
+    [
+      1030,
+      972,
+      998,
+      1049,
+      1061,
+      947,
+      959,
+      930,
+      1062,
+      988,
+      1054,
+      1085,
+      978,
+      979,
+      1026,
+      1130,
+      969
+    ],
+    [
+      1033,
+      1039,
+      1064,
+      1070,
+      1056,
+      1011,
+      1050,
+      973,
+      949,
+      1078,
+      980,
+      1005,
+      999,
+      960,
+      989,
+      961,
+      974,
+      990,
+      1051
+    ],
+    [
+      1020,
+      1034,
+      950,
+      1014,
+      1006,
+      1065,
+      1040,
+      1081,
+      1071,
+      1057,
+      1052,
+      975,
+      1000,
+      981,
+      962,
+      1001,
+      991,
+      1094,
+      1035,
+      982,
+      1041,
+      1058,
+      1066,
+      1072
+    ],
+    [
+      1087,
+      1036,
+      951,
+      1021,
+      1007,
+      1015,
+      1042,
+      1060,
+      1044,
+      1082,
+      1073,
+      1118,
+      1027,
+      1010,
+      1102,
+      1067,
+      1022,
+      983,
+      1116,
+      1059,
+      1016,
+      952,
+      1008,
+      1083
+    ],
+    [
+      1074,
+      1075,
+      1024,
+      1088,
+      1119,
+      1023,
+      1028,
+      953,
+      1009,
+      1098,
+      1099,
+      1103,
+      1084,
+      1101,
+      1142,
+      1093,
+      1017,
+      1089
+    ],
+    [
+      1076,
+      1002,
+      1122,
+      1096,
+      1090,
+      1043,
+      1100,
+      1112,
+      1143,
+      1200
+    ],
+    [
+      1077,
+      1108,
+      1129,
+      1097,
+      1135,
+      1144,
+      1147
+    ],
+    [
+      1107,
+      1110,
+      1109,
+      1148,
+      1091,
+      1145,
+      1095,
+      1105,
+      1174
+    ],
+    [
+      1111,
+      1106,
+      1113,
+      1180,
+      1125,
+      1092,
+      1136,
+      1153,
+      1161
+    ],
+    [
+      1120,
+      1114,
+      1126,
+      1133,
+      1117,
+      1140,
+      1137,
+      1104,
+      1207
+    ],
+    [
+      1121,
+      1115,
+      1123,
+      1187,
+      1131,
+      1159,
+      1160,
+      1124,
+      1214
+    ],
+    [
+      1127,
+      1128,
+      1138,
+      1132,
+      1139,
+      1188,
+      1134,
+      1168,
+      1162,
+      1201
+    ],
+    [
+      1149,
+      1152,
+      1163,
+      1141,
+      1146,
+      1181,
+      1189,
+      1154,
+      1215
+    ],
+    [
+      1150,
+      1155,
+      1216,
+      1182,
+      1164,
+      1202,
+      1208,
+      1165
+    ],
+    [
+      1151,
+      1167,
+      1183,
+      1203,
+      1156,
+      1217,
+      1166,
+      1157,
+      1218
+    ],
+    [
+      1169,
+      1190,
+      1184,
+      1195,
+      1204,
+      1175,
+      1209,
+      1158,
+      1219,
+      1185,
+      1205
+    ],
+    [
+      1191,
+      1170,
+      1176,
+      1210,
+      1186,
+      1221,
+      1256,
+      1206
+    ],
+    [
+      1192,
+      1171,
+      1177,
+      1224,
+      1211,
+      1228,
+      1172,
+      1178,
+      1193,
+      1212
+    ],
+    [
+      1194,
+      1196,
+      1173,
+      1179,
+      1213,
+      1254
+    ],
+    [
+      1199,
+      1227,
+      1198,
+      1197,
+      1235
+    ],
+    [
+      1236,
+      1220,
+      1229,
+      1222
+    ],
+    [
+      1225,
+      1223,
+      1237,
+      1230,
+      1233
+    ],
+    [
+      1226,
+      1241,
+      1242,
+      1231,
+      1257
+    ],
+    [
+      1240,
+      1243,
+      1232,
+      1234,
+      1238,
+      1258
+    ],
+    [
+      1245,
+      1239,
+      1246,
+      1248
+    ],
+    [
+      1250,
+      1252,
+      1244,
+      1247,
+      1249,
+      1255
+    ],
+    [
+      1251,
+      1253
+    ]
+  ],
+  "metrics": {
+    "width": 72,
+    "full_depth": 84,
+    "t_depth": 3,
+    "t_count": 168,
+    "cnot": 792,
+    "measurements": 34,
+    "one_qubit_clifford": 265,
+    "gate_count": 1259
+  },
+  "validation": {
+    "events": {
+      "exhaustive_inputs": 256,
+      "aes_correct": true,
+      "inputs_preserved": true,
+      "all_work_qubits_zero": true,
+      "all_allocation_and_gadget_promises": true,
+      "all_prepared_states_consumed": true,
+      "event_counts": {
+        "prep": 25,
+        "and3": 25,
+        "and4": 17,
+        "cleanup": 34,
+        "cx": 472,
+        "x": 3
+      }
+    },
+    "schedule": {
+      "permutation": true,
+      "inverted_pairs_checked": 44447,
+      "all_inverted_pairs_commute_exactly": true,
+      "wire_exclusivity": true,
+      "feed_forward_order": true,
+      "t_layer_positions": [
+        10,
+        27,
+        44
+      ]
+    }
+  },
+  "trial": 1,
+  "window_proofs": [
+    {
+      "start": 85,
+      "end": 125,
+      "before": 40,
+      "after": 39,
+      "reverse_synthesis": true,
+      "all_wire_truth_signatures_equal": true
+    },
+    {
+      "start": 197,
+      "end": 237,
+      "before": 40,
+      "after": 39,
+      "reverse_synthesis": true,
+      "all_wire_truth_signatures_equal": true
+    },
+    {
+      "start": 495,
+      "end": 512,
+      "before": 17,
+      "after": 16,
+      "reverse_synthesis": false,
+      "all_wire_truth_signatures_equal": true
+    }
+  ],
+  "source_sha256": "15b069af41c2930dde086d3d5bab56578657d33c46156f2b9724e31754e37456"
+}
